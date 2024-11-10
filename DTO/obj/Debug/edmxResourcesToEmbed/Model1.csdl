@@ -1,0 +1,258 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="QUANLYTHUVIENModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="CHITIETMUON">
+    <Key>
+      <PropertyRef Name="MAPM" />
+      <PropertyRef Name="MASACH" />
+    </Key>
+    <Property Name="MAPM" Type="Int32" Nullable="false" />
+    <Property Name="MASACH" Type="Int32" Nullable="false" />
+    <Property Name="SOLUONG" Type="Int32" />
+    <NavigationProperty Name="PHIEUMUON" Relationship="Self.FK_CTM_PM" FromRole="CHITIETMUON" ToRole="PHIEUMUON" />
+    <NavigationProperty Name="SACH" Relationship="Self.FK_CTM_SACH" FromRole="CHITIETMUON" ToRole="SACH" />
+  </EntityType>
+  <EntityType Name="DOCGIA">
+    <Key>
+      <PropertyRef Name="MADG" />
+    </Key>
+    <Property Name="MADG" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="TENDG" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="EMAIL" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="SDT" Type="String" MaxLength="12" FixedLength="false" Unicode="false" />
+    <Property Name="GIOITINH" Type="String" MaxLength="3" FixedLength="false" Unicode="true" />
+    <Property Name="DIACHI" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="MATK" Type="Int32" />
+    <NavigationProperty Name="TAIKHOAN" Relationship="Self.FK_DG_TK" FromRole="DOCGIA" ToRole="TAIKHOAN" />
+    <NavigationProperty Name="PHIEUMUONs" Relationship="Self.FK_PM_DG" FromRole="DOCGIA" ToRole="PHIEUMUON" />
+  </EntityType>
+  <EntityType Name="LOAITAIKHOAN">
+    <Key>
+      <PropertyRef Name="MALOAITK" />
+    </Key>
+    <Property Name="MALOAITK" Type="String" MaxLength="7" FixedLength="true" Unicode="false" Nullable="false" />
+    <Property Name="TENLOAITK" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="TAIKHOANs" Relationship="Self.FK_TK_LTK" FromRole="LOAITAIKHOAN" ToRole="TAIKHOAN" />
+  </EntityType>
+  <EntityType Name="NHAXUATBAN">
+    <Key>
+      <PropertyRef Name="MANXB" />
+    </Key>
+    <Property Name="MANXB" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="TENNXB" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="DIACHI" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="SACHes" Relationship="Self.FK_SACH_NXB" FromRole="NHAXUATBAN" ToRole="SACH" />
+  </EntityType>
+  <EntityType Name="PHIEUMUON">
+    <Key>
+      <PropertyRef Name="MAPM" />
+    </Key>
+    <Property Name="MAPM" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="MADG" Type="Int32" />
+    <Property Name="NGAYMUON" Type="DateTime" Precision="3" />
+    <Property Name="NGAYTRA" Type="DateTime" Precision="3" />
+    <Property Name="TONGSO_SACH" Type="Int32" />
+    <Property Name="TINHTRANG" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="CHITIETMUONs" Relationship="Self.FK_CTM_PM" FromRole="PHIEUMUON" ToRole="CHITIETMUON" />
+    <NavigationProperty Name="DOCGIA" Relationship="Self.FK_PM_DG" FromRole="PHIEUMUON" ToRole="DOCGIA" />
+  </EntityType>
+  <EntityType Name="SACH">
+    <Key>
+      <PropertyRef Name="MASACH" />
+    </Key>
+    <Property Name="MASACH" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="TENSACH" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="MOTA" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="MATL" Type="String" MaxLength="7" FixedLength="true" Unicode="false" />
+    <Property Name="MANXB" Type="Int32" />
+    <Property Name="MATACGIA" Type="Int32" />
+    <Property Name="SOLUONG" Type="Int32" />
+    <Property Name="DONGIA" Type="Double" />
+    <NavigationProperty Name="CHITIETMUONs" Relationship="Self.FK_CTM_SACH" FromRole="SACH" ToRole="CHITIETMUON" />
+    <NavigationProperty Name="NHAXUATBAN" Relationship="Self.FK_SACH_NXB" FromRole="SACH" ToRole="NHAXUATBAN" />
+    <NavigationProperty Name="TACGIA" Relationship="Self.FK_SACH_TACGIA" FromRole="SACH" ToRole="TACGIA" />
+    <NavigationProperty Name="THELOAI" Relationship="Self.FK_SACH_TL" FromRole="SACH" ToRole="THELOAI" />
+  </EntityType>
+  <EntityType Name="sysdiagram">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="principal_id" Type="Int32" Nullable="false" />
+    <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="version" Type="Int32" />
+    <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="TACGIA">
+    <Key>
+      <PropertyRef Name="MATACGIA" />
+    </Key>
+    <Property Name="MATACGIA" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="TENTACGIA" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="SACHes" Relationship="Self.FK_SACH_TACGIA" FromRole="TACGIA" ToRole="SACH" />
+  </EntityType>
+  <EntityType Name="TAIKHOAN">
+    <Key>
+      <PropertyRef Name="MATK" />
+    </Key>
+    <Property Name="MATK" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="TENDN" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="MATKHAU" Type="String" MaxLength="32" FixedLength="false" Unicode="false" />
+    <Property Name="NGAYDANGKY" Type="DateTime" Precision="3" />
+    <Property Name="TRANGTHAI" Type="Boolean" />
+    <Property Name="MALOAITK" Type="String" MaxLength="7" FixedLength="true" Unicode="false" />
+    <Property Name="HOTEN" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="EMAIL" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="SDT" Type="String" MaxLength="12" FixedLength="false" Unicode="false" />
+    <Property Name="DIACHI" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="DOCGIAs" Relationship="Self.FK_DG_TK" FromRole="TAIKHOAN" ToRole="DOCGIA" />
+    <NavigationProperty Name="LOAITAIKHOAN" Relationship="Self.FK_TK_LTK" FromRole="TAIKHOAN" ToRole="LOAITAIKHOAN" />
+  </EntityType>
+  <EntityType Name="THELOAI">
+    <Key>
+      <PropertyRef Name="MATL" />
+    </Key>
+    <Property Name="MATL" Type="String" MaxLength="7" FixedLength="true" Unicode="false" Nullable="false" />
+    <Property Name="TENTL" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="SACHes" Relationship="Self.FK_SACH_TL" FromRole="THELOAI" ToRole="SACH" />
+  </EntityType>
+  <Association Name="FK_CTM_PM">
+    <End Role="PHIEUMUON" Type="Self.PHIEUMUON" Multiplicity="1" />
+    <End Role="CHITIETMUON" Type="Self.CHITIETMUON" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="PHIEUMUON">
+        <PropertyRef Name="MAPM" />
+      </Principal>
+      <Dependent Role="CHITIETMUON">
+        <PropertyRef Name="MAPM" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_CTM_SACH">
+    <End Role="SACH" Type="Self.SACH" Multiplicity="1" />
+    <End Role="CHITIETMUON" Type="Self.CHITIETMUON" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="SACH">
+        <PropertyRef Name="MASACH" />
+      </Principal>
+      <Dependent Role="CHITIETMUON">
+        <PropertyRef Name="MASACH" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_DG_TK">
+    <End Role="TAIKHOAN" Type="Self.TAIKHOAN" Multiplicity="0..1" />
+    <End Role="DOCGIA" Type="Self.DOCGIA" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TAIKHOAN">
+        <PropertyRef Name="MATK" />
+      </Principal>
+      <Dependent Role="DOCGIA">
+        <PropertyRef Name="MATK" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_PM_DG">
+    <End Role="DOCGIA" Type="Self.DOCGIA" Multiplicity="0..1" />
+    <End Role="PHIEUMUON" Type="Self.PHIEUMUON" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="DOCGIA">
+        <PropertyRef Name="MADG" />
+      </Principal>
+      <Dependent Role="PHIEUMUON">
+        <PropertyRef Name="MADG" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_TK_LTK">
+    <End Role="LOAITAIKHOAN" Type="Self.LOAITAIKHOAN" Multiplicity="0..1" />
+    <End Role="TAIKHOAN" Type="Self.TAIKHOAN" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="LOAITAIKHOAN">
+        <PropertyRef Name="MALOAITK" />
+      </Principal>
+      <Dependent Role="TAIKHOAN">
+        <PropertyRef Name="MALOAITK" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_SACH_NXB">
+    <End Role="NHAXUATBAN" Type="Self.NHAXUATBAN" Multiplicity="0..1" />
+    <End Role="SACH" Type="Self.SACH" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="NHAXUATBAN">
+        <PropertyRef Name="MANXB" />
+      </Principal>
+      <Dependent Role="SACH">
+        <PropertyRef Name="MANXB" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_SACH_TACGIA">
+    <End Role="TACGIA" Type="Self.TACGIA" Multiplicity="0..1" />
+    <End Role="SACH" Type="Self.SACH" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TACGIA">
+        <PropertyRef Name="MATACGIA" />
+      </Principal>
+      <Dependent Role="SACH">
+        <PropertyRef Name="MATACGIA" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_SACH_TL">
+    <End Role="THELOAI" Type="Self.THELOAI" Multiplicity="0..1" />
+    <End Role="SACH" Type="Self.SACH" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="THELOAI">
+        <PropertyRef Name="MATL" />
+      </Principal>
+      <Dependent Role="SACH">
+        <PropertyRef Name="MATL" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="QUANLYTHUVIENEntities2" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="CHITIETMUONs" EntityType="Self.CHITIETMUON" />
+    <EntitySet Name="DOCGIAs" EntityType="Self.DOCGIA" />
+    <EntitySet Name="LOAITAIKHOANs" EntityType="Self.LOAITAIKHOAN" />
+    <EntitySet Name="NHAXUATBANs" EntityType="Self.NHAXUATBAN" />
+    <EntitySet Name="PHIEUMUONs" EntityType="Self.PHIEUMUON" />
+    <EntitySet Name="SACHes" EntityType="Self.SACH" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagram" />
+    <EntitySet Name="TACGIAs" EntityType="Self.TACGIA" />
+    <EntitySet Name="TAIKHOANs" EntityType="Self.TAIKHOAN" />
+    <EntitySet Name="THELOAIs" EntityType="Self.THELOAI" />
+    <AssociationSet Name="FK_CTM_PM" Association="Self.FK_CTM_PM">
+      <End Role="PHIEUMUON" EntitySet="PHIEUMUONs" />
+      <End Role="CHITIETMUON" EntitySet="CHITIETMUONs" />
+    </AssociationSet>
+    <AssociationSet Name="FK_CTM_SACH" Association="Self.FK_CTM_SACH">
+      <End Role="SACH" EntitySet="SACHes" />
+      <End Role="CHITIETMUON" EntitySet="CHITIETMUONs" />
+    </AssociationSet>
+    <AssociationSet Name="FK_DG_TK" Association="Self.FK_DG_TK">
+      <End Role="TAIKHOAN" EntitySet="TAIKHOANs" />
+      <End Role="DOCGIA" EntitySet="DOCGIAs" />
+    </AssociationSet>
+    <AssociationSet Name="FK_PM_DG" Association="Self.FK_PM_DG">
+      <End Role="DOCGIA" EntitySet="DOCGIAs" />
+      <End Role="PHIEUMUON" EntitySet="PHIEUMUONs" />
+    </AssociationSet>
+    <AssociationSet Name="FK_TK_LTK" Association="Self.FK_TK_LTK">
+      <End Role="LOAITAIKHOAN" EntitySet="LOAITAIKHOANs" />
+      <End Role="TAIKHOAN" EntitySet="TAIKHOANs" />
+    </AssociationSet>
+    <AssociationSet Name="FK_SACH_NXB" Association="Self.FK_SACH_NXB">
+      <End Role="NHAXUATBAN" EntitySet="NHAXUATBANs" />
+      <End Role="SACH" EntitySet="SACHes" />
+    </AssociationSet>
+    <AssociationSet Name="FK_SACH_TACGIA" Association="Self.FK_SACH_TACGIA">
+      <End Role="TACGIA" EntitySet="TACGIAs" />
+      <End Role="SACH" EntitySet="SACHes" />
+    </AssociationSet>
+    <AssociationSet Name="FK_SACH_TL" Association="Self.FK_SACH_TL">
+      <End Role="THELOAI" EntitySet="THELOAIs" />
+      <End Role="SACH" EntitySet="SACHes" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

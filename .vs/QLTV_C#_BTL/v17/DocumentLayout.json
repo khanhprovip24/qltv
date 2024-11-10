@@ -1,0 +1,224 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\New Folder\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4139EBE7-CE66-4D44-AB22-EE326083E5FA}|GUI\\GUI.csproj|D:\\New Folder\\gui\\formqlydocgia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4139EBE7-CE66-4D44-AB22-EE326083E5FA}|GUI\\GUI.csproj|solutionrelative:gui\\formqlydocgia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FD172F0-1670-447F-B59B-757ED054ADD8}|DTO\\DTO.csproj|d:\\new folder\\dto\\model1.context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FD172F0-1670-447F-B59B-757ED054ADD8}|DTO\\DTO.csproj|solutionrelative:dto\\model1.context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4139EBE7-CE66-4D44-AB22-EE326083E5FA}|GUI\\GUI.csproj|D:\\New Folder\\gui\\formmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4139EBE7-CE66-4D44-AB22-EE326083E5FA}|GUI\\GUI.csproj|solutionrelative:gui\\formmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4139EBE7-CE66-4D44-AB22-EE326083E5FA}|GUI\\GUI.csproj|D:\\New Folder\\gui\\formtaotk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4139EBE7-CE66-4D44-AB22-EE326083E5FA}|GUI\\GUI.csproj|solutionrelative:gui\\formtaotk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4139EBE7-CE66-4D44-AB22-EE326083E5FA}|GUI\\GUI.csproj|D:\\New Folder\\gui\\formtaotk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4139EBE7-CE66-4D44-AB22-EE326083E5FA}|GUI\\GUI.csproj|solutionrelative:gui\\formtaotk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4139EBE7-CE66-4D44-AB22-EE326083E5FA}|GUI\\GUI.csproj|D:\\New Folder\\gui\\fromqlythuthu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4139EBE7-CE66-4D44-AB22-EE326083E5FA}|GUI\\GUI.csproj|solutionrelative:gui\\fromqlythuthu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4139EBE7-CE66-4D44-AB22-EE326083E5FA}|GUI\\GUI.csproj|D:\\New Folder\\gui\\fromqlythuthu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4139EBE7-CE66-4D44-AB22-EE326083E5FA}|GUI\\GUI.csproj|solutionrelative:gui\\fromqlythuthu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93A7CEB1-BD84-4C30-B0BF-D6AE55A214EF}|BUS\\BUS.csproj|D:\\New Folder\\bus\\bustaikhoan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{93A7CEB1-BD84-4C30-B0BF-D6AE55A214EF}|BUS\\BUS.csproj|solutionrelative:bus\\bustaikhoan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4139EBE7-CE66-4D44-AB22-EE326083E5FA}|GUI\\GUI.csproj|D:\\New Folder\\gui\\formqlydocgia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4139EBE7-CE66-4D44-AB22-EE326083E5FA}|GUI\\GUI.csproj|solutionrelative:gui\\formqlydocgia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F690A1AC-C2F4-47A4-B0C6-37F84E00AFE7}|DAL\\DAL.csproj|D:\\New Folder\\dal\\daltaikhoan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F690A1AC-C2F4-47A4-B0C6-37F84E00AFE7}|DAL\\DAL.csproj|solutionrelative:dal\\daltaikhoan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93A7CEB1-BD84-4C30-B0BF-D6AE55A214EF}|BUS\\BUS.csproj|D:\\New Folder\\bus\\busdocgia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{93A7CEB1-BD84-4C30-B0BF-D6AE55A214EF}|BUS\\BUS.csproj|solutionrelative:bus\\busdocgia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F690A1AC-C2F4-47A4-B0C6-37F84E00AFE7}|DAL\\DAL.csproj|D:\\New Folder\\dal\\daldocgia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F690A1AC-C2F4-47A4-B0C6-37F84E00AFE7}|DAL\\DAL.csproj|solutionrelative:dal\\daldocgia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 15,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Model1.Context.cs",
+              "DocumentMoniker": "D:\\New Folder\\DTO\\Model1.Context.cs",
+              "RelativeDocumentMoniker": "DTO\\Model1.Context.cs",
+              "ToolTip": "D:\\New Folder\\DTO\\Model1.Context.cs",
+              "RelativeToolTip": "DTO\\Model1.Context.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAwwCAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-10T08:10:05.348Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "formMain.cs [Design]",
+              "DocumentMoniker": "D:\\New Folder\\GUI\\formMain.cs",
+              "RelativeDocumentMoniker": "GUI\\formMain.cs",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\BTL_C#\\BTL_QLTV\\GUI\\formMain.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-10T08:09:41.002Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "formTaoTK.cs [Design]",
+              "DocumentMoniker": "D:\\New Folder\\GUI\\formTaoTK.cs",
+              "RelativeDocumentMoniker": "GUI\\formTaoTK.cs",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\BTL_C#\\BTL_QLTV\\GUI\\formTaoTK.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-10T08:00:32.508Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "BUSTaiKhoan.cs",
+              "DocumentMoniker": "D:\\New Folder\\BUS\\BUSTaiKhoan.cs",
+              "RelativeDocumentMoniker": "BUS\\BUSTaiKhoan.cs",
+              "ToolTip": "D:\\New Folder\\BUS\\BUSTaiKhoan.cs",
+              "RelativeToolTip": "BUS\\BUSTaiKhoan.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAgwEQAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-10T07:52:26.62Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "formQLYDocGia.cs",
+              "DocumentMoniker": "D:\\New Folder\\GUI\\formQLYDocGia.cs",
+              "RelativeDocumentMoniker": "GUI\\formQLYDocGia.cs",
+              "ToolTip": "D:\\New Folder\\GUI\\formQLYDocGia.cs",
+              "RelativeToolTip": "GUI\\formQLYDocGia.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAA3wDoAAABTAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-10T07:47:57.208Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "DALDocGia.cs",
+              "DocumentMoniker": "D:\\New Folder\\DAL\\DALDocGia.cs",
+              "RelativeDocumentMoniker": "DAL\\DALDocGia.cs",
+              "ToolTip": "D:\\New Folder\\DAL\\DALDocGia.cs",
+              "RelativeToolTip": "DAL\\DALDocGia.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwCYAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-10T07:42:53.266Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "formTaoTK.cs",
+              "DocumentMoniker": "D:\\New Folder\\GUI\\formTaoTK.cs",
+              "RelativeDocumentMoniker": "GUI\\formTaoTK.cs",
+              "ToolTip": "D:\\New Folder\\GUI\\formTaoTK.cs",
+              "RelativeToolTip": "GUI\\formTaoTK.cs",
+              "ViewState": "AgIAAHcAAAAAAAAAAAASwI8AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-10T07:37:51.029Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "fromQLYThuThu.cs",
+              "DocumentMoniker": "D:\\New Folder\\GUI\\fromQLYThuThu.cs",
+              "RelativeDocumentMoniker": "GUI\\fromQLYThuThu.cs",
+              "ToolTip": "D:\\New Folder\\GUI\\fromQLYThuThu.cs",
+              "RelativeToolTip": "GUI\\fromQLYThuThu.cs",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAEwFcAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-10T07:34:45.643Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "fromQLYThuThu.cs [Design]",
+              "DocumentMoniker": "D:\\New Folder\\GUI\\fromQLYThuThu.cs",
+              "RelativeDocumentMoniker": "GUI\\fromQLYThuThu.cs",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\BTL_C#\\BTL_QLTV\\GUI\\fromQLYThuThu.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-10T07:33:02.35Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "BUSDocGia.cs",
+              "DocumentMoniker": "D:\\New Folder\\BUS\\BUSDocGia.cs",
+              "RelativeDocumentMoniker": "BUS\\BUSDocGia.cs",
+              "ToolTip": "D:\\New Folder\\BUS\\BUSDocGia.cs",
+              "RelativeToolTip": "BUS\\BUSDocGia.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACYAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-10T07:25:00.754Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "DALTaiKhoan.cs",
+              "DocumentMoniker": "D:\\New Folder\\DAL\\DALTaiKhoan.cs",
+              "RelativeDocumentMoniker": "DAL\\DALTaiKhoan.cs",
+              "ToolTip": "D:\\New Folder\\DAL\\DALTaiKhoan.cs",
+              "RelativeToolTip": "DAL\\DALTaiKhoan.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAwCkAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-10T07:23:26.118Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "formQLYDocGia.cs [Design]",
+              "DocumentMoniker": "D:\\New Folder\\GUI\\formQLYDocGia.cs",
+              "RelativeDocumentMoniker": "GUI\\formQLYDocGia.cs",
+              "ToolTip": "D:\\New Folder\\GUI\\formQLYDocGia.cs [Design]",
+              "RelativeToolTip": "GUI\\formQLYDocGia.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-10T07:23:21.516Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
