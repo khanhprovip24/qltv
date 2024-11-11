@@ -142,5 +142,20 @@ namespace GUI
                 gridDocGia.DataSource = busDG.GetAllDocGia().Where(p => p.TENDG.Contains(txtTimKiem.Text)).ToList();
             }
         }
+
+        private void radioButtonTEN_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void radioButtonMA_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtTimKiem_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

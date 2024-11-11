@@ -99,6 +99,8 @@
     <Compile Include="THELOAI.cs">
       <DependentUpon>Model1.tt</DependentUpon>
     </Compile>
+    <Compile Include="ThongTinNXB.cs" />
+    <Compile Include="ThongTinTacGia.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

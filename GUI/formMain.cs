@@ -106,7 +106,8 @@ namespace GUI
 
         private void qLySáchToolStripMenuItem_Click(object sender, EventArgs e)
         {
-
+            FormQuanLySach f = new FormQuanLySach();
+            f.Show();
         }
 
         private void qLyThủToolStripMenuItem_Click(object sender, EventArgs e)
@@ -118,6 +119,30 @@ namespace GUI
         private void qLyĐộcGiảToolStripMenuItem_Click(object sender, EventArgs e)
         {
             formQLYDocGia f = new formQLYDocGia(userId);
+            f.Show();
+        }
+
+        private void taoPhiếuMượnToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            formTaoPhieu f = new formTaoPhieu();
+            f.Show();
+        }
+
+        private void qLyThểLoạiToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FormTheLoaiSach f = new FormTheLoaiSach();
+            f.Show();
+        }
+
+        private void qLyNhàXuấtBảnToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FormNXB f = new FormNXB();
+            f.Show();
+        }
+
+        private void qLyTácGiảToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FormTacGia f = new FormTacGia();
             f.Show();
         }
     }

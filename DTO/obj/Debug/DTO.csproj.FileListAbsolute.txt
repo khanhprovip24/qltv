@@ -34,3 +34,15 @@ C:\Users\DELL\source\repos\BTL_C#\BTL_QLTV\DTO\obj\Debug\DTO.csproj.CoreCompileI
 C:\Users\DELL\source\repos\BTL_C#\BTL_QLTV\DTO\obj\Debug\DTO.csproj.Up2Date
 C:\Users\DELL\source\repos\BTL_C#\BTL_QLTV\DTO\obj\Debug\DTO.dll
 C:\Users\DELL\source\repos\BTL_C#\BTL_QLTV\DTO\obj\Debug\DTO.pdb
+D:\BTL-qltv\DTO\bin\Debug\DTO.dll.config
+D:\BTL-qltv\DTO\bin\Debug\DTO.dll
+D:\BTL-qltv\DTO\bin\Debug\DTO.pdb
+D:\BTL-qltv\DTO\bin\Debug\EntityFramework.dll
+D:\BTL-qltv\DTO\bin\Debug\EntityFramework.SqlServer.dll
+D:\BTL-qltv\DTO\bin\Debug\EntityFramework.xml
+D:\BTL-qltv\DTO\bin\Debug\EntityFramework.SqlServer.xml
+D:\BTL-qltv\DTO\obj\Debug\DTO.csproj.AssemblyReference.cache
+D:\BTL-qltv\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
+D:\BTL-qltv\DTO\obj\Debug\DTO.csproj.Up2Date
+D:\BTL-qltv\DTO\obj\Debug\DTO.dll
+D:\BTL-qltv\DTO\obj\Debug\DTO.pdb

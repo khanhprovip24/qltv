@@ -45,5 +45,10 @@ namespace DAL
             QUANLYTHUVIENEntities2.Instance.SaveChanges();
 
         }
+        public string GetNameByID(int id)
+        {
+            return QUANLYTHUVIENEntities2.Instance.DOCGIAs.Where(x => x.MADG == id).Select(x => x.TENDG).FirstOrDefault();
+        }
+        
     }
 }

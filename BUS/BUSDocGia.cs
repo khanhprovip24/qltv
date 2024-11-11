@@ -37,5 +37,10 @@ namespace BUS
         {
             dalDG.AddDocGia(docGia);
         }
+        public string GetNameByID(int id)
+        {
+            return dalDG.GetNameByID(id);
+        }
+        
     }
 }

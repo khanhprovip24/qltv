@@ -92,6 +92,7 @@
             this.radioButtonMA.TabStop = true;
             this.radioButtonMA.Text = "Tìm theo mã";
             this.radioButtonMA.UseVisualStyleBackColor = true;
+            this.radioButtonMA.CheckedChanged += new System.EventHandler(this.radioButtonMA_CheckedChanged);
             // 
             // radioButtonTEN
             // 
@@ -103,6 +104,7 @@
             this.radioButtonTEN.TabStop = true;
             this.radioButtonTEN.Text = "Tìm theo tên";
             this.radioButtonTEN.UseVisualStyleBackColor = true;
+            this.radioButtonTEN.CheckedChanged += new System.EventHandler(this.radioButtonTEN_CheckedChanged);
             // 
             // btnTimKiem
             // 
@@ -120,6 +122,7 @@
             this.txtTimKiem.Name = "txtTimKiem";
             this.txtTimKiem.Size = new System.Drawing.Size(304, 28);
             this.txtTimKiem.TabIndex = 2;
+            this.txtTimKiem.TextChanged += new System.EventHandler(this.txtTimKiem_TextChanged);
             // 
             // groupBox1
             // 

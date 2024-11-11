@@ -38,12 +38,31 @@ namespace DAL
         }
         public void UpdateTaiKhoan(TAIKHOAN tk)
         {
-          QUANLYTHUVIENEntities2.Instance.Entry(tk).State = System.Data.Entity.EntityState.Modified;
+            var existingEntity = QUANLYTHUVIENEntities2.Instance.Set<TAIKHOAN>().Find(tk.MATK);
+            if (existingEntity != null)
+            {
+                // Chỉ cập nhật các thuộc tính không null hoặc không phải giá trị mặc định
+                if (!string.IsNullOrEmpty(tk.TENDN)) existingEntity.TENDN = tk.TENDN;
+                if (!string.IsNullOrEmpty(tk.MATKHAU)) existingEntity.MATKHAU = tk.MATKHAU;
+                if (tk.NGAYDANGKY.HasValue) existingEntity.NGAYDANGKY = tk.NGAYDANGKY;
+                if (tk.TRANGTHAI.HasValue) existingEntity.TRANGTHAI = tk.TRANGTHAI;
+                if (!string.IsNullOrEmpty(tk.MALOAITK)) existingEntity.MALOAITK = tk.MALOAITK;
+                if (!string.IsNullOrEmpty(tk.HOTEN)) existingEntity.HOTEN = tk.HOTEN;
+                if (!string.IsNullOrEmpty(tk.EMAIL)) existingEntity.EMAIL = tk.EMAIL;
+                if (!string.IsNullOrEmpty(tk.SDT)) existingEntity.SDT = tk.SDT;
+                if (!string.IsNullOrEmpty(tk.DIACHI)) existingEntity.DIACHI = tk.DIACHI;
+            }
+            else
+            {
+                QUANLYTHUVIENEntities2.Instance.Entry(tk).State = System.Data.Entity.EntityState.Modified;
+            }
             QUANLYTHUVIENEntities2.Instance.SaveChanges();
         }
 
-        }
 
 
     }
+
+
+}
 

@@ -52,7 +52,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DALDocGia.cs" />
+    <Compile Include="DALNXB.cs" />
+    <Compile Include="DALPhieuMuon.cs" />
+    <Compile Include="DALSach.cs" />
+    <Compile Include="DALTacGia.cs" />
     <Compile Include="DALTaiKhoan.cs" />
+    <Compile Include="DALTheLoaiSach.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
