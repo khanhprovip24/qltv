@@ -63,5 +63,13 @@ namespace BUS
         {
             return DALSach.Instance.GetAllAuthorIds();
         }
+        public string GetNameByID(int maSach)
+        {
+            return DALSach.Instance.GetNameByID(maSach);
+        }
+        public int GetSoLuongByID(int maSach)
+        {
+            return DALSach.Instance.GetSoLuongByID(maSach);
+        }
     }
 }

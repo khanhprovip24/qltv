@@ -51,6 +51,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DALChiTietMuon.cs" />
     <Compile Include="DALDocGia.cs" />
     <Compile Include="DALNXB.cs" />
     <Compile Include="DALPhieuMuon.cs" />

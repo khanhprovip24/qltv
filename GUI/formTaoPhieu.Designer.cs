@@ -38,7 +38,6 @@
             this.cbbMaDG = new System.Windows.Forms.TextBox();
             this.txtTSS = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
-            this.btnLuu = new System.Windows.Forms.Button();
             this.cbbTT = new System.Windows.Forms.ComboBox();
             this.label2 = new System.Windows.Forms.Label();
             this.btnThem = new System.Windows.Forms.Button();
@@ -54,6 +53,7 @@
             this.radioButtonMaDG = new System.Windows.Forms.RadioButton();
             this.btnTimKiem = new System.Windows.Forms.Button();
             this.txtTimKiem = new System.Windows.Forms.TextBox();
+            this.btnTraSach = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.gridPhieu)).BeginInit();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
@@ -111,11 +111,11 @@
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.btnTraSach);
             this.groupBox1.Controls.Add(this.cbbTenDG);
             this.groupBox1.Controls.Add(this.cbbMaDG);
             this.groupBox1.Controls.Add(this.txtTSS);
             this.groupBox1.Controls.Add(this.label4);
-            this.groupBox1.Controls.Add(this.btnLuu);
             this.groupBox1.Controls.Add(this.cbbTT);
             this.groupBox1.Controls.Add(this.label2);
             this.groupBox1.Controls.Add(this.btnThem);
@@ -169,17 +169,6 @@
             this.label4.TabIndex = 25;
             this.label4.Text = "Tổng số sách: ";
             // 
-            // btnLuu
-            // 
-            this.btnLuu.Enabled = false;
-            this.btnLuu.Location = new System.Drawing.Point(248, 282);
-            this.btnLuu.Name = "btnLuu";
-            this.btnLuu.Size = new System.Drawing.Size(103, 34);
-            this.btnLuu.TabIndex = 24;
-            this.btnLuu.Text = "Lưu";
-            this.btnLuu.UseVisualStyleBackColor = true;
-            this.btnLuu.Click += new System.EventHandler(this.btnLuu_Click);
-            // 
             // cbbTT
             // 
             this.cbbTT.FormattingEnabled = true;
@@ -204,7 +193,7 @@
             // 
             // btnThem
             // 
-            this.btnThem.Location = new System.Drawing.Point(56, 282);
+            this.btnThem.Location = new System.Drawing.Point(41, 283);
             this.btnThem.Name = "btnThem";
             this.btnThem.Size = new System.Drawing.Size(145, 35);
             this.btnThem.TabIndex = 20;
@@ -214,7 +203,7 @@
             // 
             // btnThoat
             // 
-            this.btnThoat.Location = new System.Drawing.Point(830, 280);
+            this.btnThoat.Location = new System.Drawing.Point(893, 284);
             this.btnThoat.Name = "btnThoat";
             this.btnThoat.Size = new System.Drawing.Size(94, 36);
             this.btnThoat.TabIndex = 19;
@@ -224,7 +213,7 @@
             // 
             // btnSua
             // 
-            this.btnSua.Location = new System.Drawing.Point(418, 282);
+            this.btnSua.Location = new System.Drawing.Point(282, 283);
             this.btnSua.Name = "btnSua";
             this.btnSua.Size = new System.Drawing.Size(117, 36);
             this.btnSua.TabIndex = 18;
@@ -234,7 +223,7 @@
             // 
             // btnXoa
             // 
-            this.btnXoa.Location = new System.Drawing.Point(611, 281);
+            this.btnXoa.Location = new System.Drawing.Point(508, 282);
             this.btnXoa.Name = "btnXoa";
             this.btnXoa.Size = new System.Drawing.Size(121, 36);
             this.btnXoa.TabIndex = 17;
@@ -329,6 +318,16 @@
             this.txtTimKiem.Size = new System.Drawing.Size(304, 28);
             this.txtTimKiem.TabIndex = 6;
             // 
+            // btnTraSach
+            // 
+            this.btnTraSach.Location = new System.Drawing.Point(716, 282);
+            this.btnTraSach.Name = "btnTraSach";
+            this.btnTraSach.Size = new System.Drawing.Size(127, 41);
+            this.btnTraSach.TabIndex = 29;
+            this.btnTraSach.Text = "Trả sách";
+            this.btnTraSach.UseVisualStyleBackColor = true;
+            this.btnTraSach.Click += new System.EventHandler(this.btnTraSach_Click);
+            // 
             // formTaoPhieu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -373,10 +372,10 @@
         private System.Windows.Forms.TextBox txtTimKiem;
         private System.Windows.Forms.ComboBox cbbTT;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Button btnLuu;
         private System.Windows.Forms.TextBox txtTSS;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.TextBox cbbTenDG;
         private System.Windows.Forms.TextBox cbbMaDG;
+        private System.Windows.Forms.Button btnTraSach;
     }
 }

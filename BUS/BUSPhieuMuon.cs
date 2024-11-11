@@ -39,9 +39,9 @@ namespace BUS
         }
         public int GetNextId()
         {
-          return DALPhieuMuon.Instance.GetNextId();
+            return DALPhieuMuon.Instance.GetNextId();
         }
-        
+
         public List<PHIEUMUON> GetPhieuMuonByMaPM(int maPM)
         {
             return DALPhieuMuon.Instance.GetPhieuMuonByMaPM(maPM);
@@ -49,6 +49,34 @@ namespace BUS
         public List<PHIEUMUON> GetPhieuMuonByMaDocGia(int maDG)
         {
             return DALPhieuMuon.Instance.GetPhieuMuonByMaDocGia(maDG);
+        }
+        public List<int> GetAllMaPM()
+        {
+            return DALPhieuMuon.Instance.GetAllMaPM();
+        }
+        public int GetMaDGByMaPhieu(int maPM)
+        {
+            return DALPhieuMuon.Instance.GetMaDGByMaPhieu(maPM);
+        }
+        public void UpdateLateStatus()
+        {
+          DALPhieuMuon.Instance.UpdateLateStatus();
+        }
+        public List<CHITIETMUON> GetChiTietMuonsByMaPhieu(int maPhieu)
+        {
+           return DALPhieuMuon.Instance.GetChiTietMuonsByMaPhieu(maPhieu);
+        }
+        public void DeleteChiTietMuon(int maPM, int maSach)
+        {
+            DALPhieuMuon.Instance.DeleteChiTietMuon(maPM, maSach);
+        }
+        public PHIEUMUON Get1PhieuMuonByMaPM(int mapm)
+        {
+           return DALPhieuMuon.Instance.Get1PhieuMuonByMaPM(mapm);
+        }
+        public List<int> GetMaPMByStatus(string status)
+        {
+            return DALPhieuMuon.Instance.GetMaPMByStatus(status);
         }
     }
 }

@@ -16,6 +16,8 @@ namespace GUI
     {
         BUSPhieuMuon busPM = new BUSPhieuMuon();
         BUSDocGia busDG = new BUSDocGia();
+        BusSach busSach = new BusSach();
+        BUSChiTietMuon busCTM = new BUSChiTietMuon();
         public formTaoPhieu()
         {
             InitializeComponent();
@@ -68,18 +70,25 @@ namespace GUI
         }
 
         private void themTenDG()
-        {
-            // Thêm cột mới để hiển thị tên độc giả
-            
+{
+    // Thêm cột mới để hiển thị tên độc giả
+    if (!gridPhieu.Columns.Contains("TenDocGia"))
+    {
+        gridPhieu.Columns.Add("TenDocGia", "Tên Độc Giả");
+    }
 
-            // Lặp qua từng hàng và gán tên độc giả vào cột mới
-            foreach (DataGridViewRow row in gridPhieu.Rows)
-            {
-                int maDG = (int)row.Cells["MADG"].Value;
-                string tenDocGia = busDG.GetNameByID(maDG);
-                row.Cells["TenDocGia"].Value = tenDocGia;
-            }
+    // Lặp qua từng hàng và gán tên độc giả vào cột mới
+    foreach (DataGridViewRow row in gridPhieu.Rows)
+    {
+        if (row.Cells["MADG"].Value != null)
+        {
+            int maDG = (int)row.Cells["MADG"].Value;
+            string tenDocGia = busDG.GetNameByID(maDG);
+            row.Cells["TenDocGia"].Value = tenDocGia;
         }
+    }
+}
+
         private void formTaoPhieu_Load(object sender, EventArgs e)
         {
           
@@ -99,6 +108,7 @@ namespace GUI
 
         private void gridPhieu_CellClick(object sender, DataGridViewCellEventArgs e)
         {
+            cbbTT.Enabled = false;
             hien();
             if (gridPhieu.CurrentRow != null)
             {
@@ -124,6 +134,7 @@ namespace GUI
 
         private void btnSua_Click(object sender, EventArgs e)
         {
+
             
             PHIEUMUON pm = new PHIEUMUON
             {
@@ -166,25 +177,7 @@ namespace GUI
             themTenDG();
         }
 
-        private void btnLuu_Click(object sender, EventArgs e)
-        {
-            
-            PHIEUMUON pm = new PHIEUMUON
-            {
-                MADG = (int)gridPhieu.CurrentRow.Cells["MADG"].Value,
-                NGAYMUON = DateTime.Parse(dateMuon.Text),
-                NGAYTRA = DateTime.Parse(dateTra.Text),
-                TINHTRANG = cbbTT.Text
-
-            };
-            btnLuu.Enabled = false;
-            busPM.AddPhieuMuon(pm);
-            gridPhieu.DataSource = busPM.GetAllPhieuMuon();
-       
-            gridPhieu.Refresh();
-            themTenDG();
-            an();
-        }
+        
 
         private void cbbMaDG_SelectedIndexChanged(object sender, EventArgs e)
         {
@@ -232,6 +225,53 @@ namespace GUI
                 MessageBox.Show("Vui lòng chọn một trong hai phương thức tìm kiếm.");
             }
         }
+
+        private void btnTraSach_Click(object sender, EventArgs e)
+        {
+            if (gridPhieu.CurrentRow != null)
+            {
+                
+                if (gridPhieu.CurrentRow.Cells["TINHTRANG"].Value.ToString() != "Hết hạn")
+                {
+                    int maPhieuMuon = int.Parse(gridPhieu.CurrentRow.Cells["MAPM"].Value.ToString());
+                    List<CHITIETMUON> chiTietMuons = busPM.GetChiTietMuonsByMaPhieu(maPhieuMuon);
+
+                    foreach (var ctm in chiTietMuons)
+                    {
+                        SACH sach = busSach.GetAllBooks().FirstOrDefault(s => s.MASACH == ctm.MASACH);
+                        if (sach != null)
+                        {
+                            sach.SOLUONG += ctm.SOLUONG;
+                            busSach.UpdateBook(sach);
+                        }
+                    }
+
+                    // Xóa toàn bộ chi tiết mượn của phiếu mượn
+                    foreach (var ctm in chiTietMuons)
+                    {
+                        busPM.DeleteChiTietMuon(ctm.MAPM, ctm.MASACH);
+                    }
+
+                    PHIEUMUON pm = busPM.Get1PhieuMuonByMaPM(maPhieuMuon);
+                    pm.TINHTRANG = "Hết hạn";
+                    busPM.UpdatePhieuMuon(pm);
+
+                    MessageBox.Show("Sách đã được trả và tình trạng phiếu mượn đã được cập nhật thành 'Hết hạn'.");
+                    gridPhieu.DataSource = busPM.GetAllPhieuMuon();
+                    themTenDG();
+                    gridPhieu.Refresh();
+                }
+                else
+                {
+                    MessageBox.Show("Phiếu mượn này đã được trả.");
+                }
+            }
+            else
+            {
+                MessageBox.Show("Vui lòng chọn một phiếu mượn để trả sách.");
+            }
+        }
+
 
     }
 }

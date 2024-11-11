@@ -18,6 +18,7 @@ namespace GUI
         private int userId;
         
      BUSTaiKhoan busTk = new BUSTaiKhoan();
+        BUSPhieuMuon busPM = new BUSPhieuMuon();
         public formMain(int userId)
         {
             InitializeComponent();
@@ -26,7 +27,8 @@ namespace GUI
 
         private void Form1_Load(object sender, EventArgs e)
         {
-          string temp = busTk.GetLoaiTKById(userId);
+            busPM.UpdateLateStatus();
+            string temp = busTk.GetLoaiTKById(userId);
             string hoten = busTk.GetNameById(userId);
             if (temp == "AD001  ")
             {
@@ -148,7 +150,13 @@ namespace GUI
 
         private void trợGiúpToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            formTroGiup f -new Form();
+            formTroGiup f = new formTroGiup();
+            f.Show();
+        }
+
+        private void tạoChiTiếtMượnToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            formChiTietMuon f =new formChiTietMuon();
             f.Show();
         }
     }

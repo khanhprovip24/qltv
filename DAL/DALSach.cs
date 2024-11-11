@@ -143,5 +143,20 @@ namespace DAL
                 return context.TACGIAs.Select(t => t.MATACGIA).ToList();
             }
         }
+        public string GetNameByID(int id)
+        {
+            using (var context = new QUANLYTHUVIENEntities2())
+            {
+                return context.SACHes.Where(s => s.MASACH == id).Select(s => s.TENSACH).FirstOrDefault();
+            }
+        }
+        public int GetSoLuongByID(int id)
+        {
+            using (var context = new QUANLYTHUVIENEntities2())
+            {
+                return context.SACHes.Where(s => s.MASACH == id).Select(s => s.SOLUONG).FirstOrDefault().GetValueOrDefault();
+            }
+        }
+
     }
 }

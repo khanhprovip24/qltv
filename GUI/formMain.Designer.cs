@@ -188,20 +188,21 @@
             // taoPhiếuMượnToolStripMenuItem
             // 
             this.taoPhiếuMượnToolStripMenuItem.Name = "taoPhiếuMượnToolStripMenuItem";
-            this.taoPhiếuMượnToolStripMenuItem.Size = new System.Drawing.Size(209, 26);
+            this.taoPhiếuMượnToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.taoPhiếuMượnToolStripMenuItem.Text = "Tao phiếu mượn";
             this.taoPhiếuMượnToolStripMenuItem.Click += new System.EventHandler(this.taoPhiếuMượnToolStripMenuItem_Click);
             // 
             // tạoChiTiếtMượnToolStripMenuItem
             // 
             this.tạoChiTiếtMượnToolStripMenuItem.Name = "tạoChiTiếtMượnToolStripMenuItem";
-            this.tạoChiTiếtMượnToolStripMenuItem.Size = new System.Drawing.Size(209, 26);
+            this.tạoChiTiếtMượnToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.tạoChiTiếtMượnToolStripMenuItem.Text = "Tạo chi tiết mượn";
+            this.tạoChiTiếtMượnToolStripMenuItem.Click += new System.EventHandler(this.tạoChiTiếtMượnToolStripMenuItem_Click);
             // 
             // sacToolStripMenuItem
             // 
             this.sacToolStripMenuItem.Name = "sacToolStripMenuItem";
-            this.sacToolStripMenuItem.Size = new System.Drawing.Size(209, 26);
+            this.sacToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.sacToolStripMenuItem.Text = "Sách trả trễ";
             // 
             // báoCáoThốngKêToolStripMenuItem

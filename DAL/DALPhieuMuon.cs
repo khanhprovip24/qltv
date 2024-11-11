@@ -28,15 +28,20 @@ namespace DAL
         }
         public void UpdatePhieuMuon(PHIEUMUON pm)
         {
-            QUANLYTHUVIENEntities2 db = new QUANLYTHUVIENEntities2();
-            var existingEntity = db.Set<PHIEUMUON>().Local.FirstOrDefault(e => e.MAPM == pm.MAPM);
-            if (existingEntity != null)
+            using (var db = new QUANLYTHUVIENEntities2())
             {
-                db.Entry(existingEntity).State = System.Data.Entity.EntityState.Detached;
+                var existingEntity = db.PHIEUMUONs.AsNoTracking().FirstOrDefault(e => e.MAPM == pm.MAPM);
+                if (existingEntity != null)
+                {
+                    db.PHIEUMUONs.Attach(existingEntity);
+                    db.Entry(existingEntity).CurrentValues.SetValues(pm);
+                    db.SaveChanges();
+                }
             }
-            db.Entry(pm).State = System.Data.Entity.EntityState.Modified;
-            db.SaveChanges();
         }
+
+
+
         public void DeletePhieuMuon(PHIEUMUON pm)
         {
             var context = QUANLYTHUVIENEntities2.Instance;
@@ -66,10 +71,67 @@ namespace DAL
             QUANLYTHUVIENEntities2 db = new QUANLYTHUVIENEntities2();
             return db.PHIEUMUONs.Where(x => x.MADG == madg).ToList();
         }
+
+        public PHIEUMUON Get1PhieuMuonByMaPM(int maPM)
+        {
+            QUANLYTHUVIENEntities2 db = new QUANLYTHUVIENEntities2();
+            return db.PHIEUMUONs.Where(x => x.MAPM == maPM).FirstOrDefault();
+        }
         public List<PHIEUMUON> GetPhieuMuonByMaPM(int maPM)
         {
             QUANLYTHUVIENEntities2 db = new QUANLYTHUVIENEntities2();
             return db.PHIEUMUONs.Where(x => x.MAPM == maPM).ToList();
         }
+        public List<int> GetAllMaPM()
+        {
+            QUANLYTHUVIENEntities2 db = new QUANLYTHUVIENEntities2();
+            return db.PHIEUMUONs.Select(x => x.MAPM).ToList();
+        }
+        public int GetMaDGByMaPhieu(int maPM)
+        {
+            QUANLYTHUVIENEntities2 db = new QUANLYTHUVIENEntities2();
+            return db.PHIEUMUONs.Where(x => x.MAPM == maPM).Select(x => x.MADG).FirstOrDefault().GetValueOrDefault();
+        }
+        public void UpdateLateStatus()
+        {
+            var today = DateTime.Today;
+            var chiTietMuons = QUANLYTHUVIENEntities2.Instance.PHIEUMUONs.ToList();
+
+            foreach (var ctm in chiTietMuons)
+            {
+                if (ctm.NGAYTRA < today && ctm.TINHTRANG == "Đang mượn")
+                {
+                    ctm.TINHTRANG = "Trễ hạn";
+                }
+            }
+
+            QUANLYTHUVIENEntities2.Instance.SaveChanges();
+        }
+        public List<CHITIETMUON> GetChiTietMuonsByMaPhieu(int maPhieu)
+        {
+            QUANLYTHUVIENEntities2 db = new QUANLYTHUVIENEntities2();
+            return db.CHITIETMUONs.Where(x => x.MAPM == maPhieu).ToList();
+        }
+        public void DeleteChiTietMuon(int maPM, int maSach)
+        {
+            var context = QUANLYTHUVIENEntities2.Instance;
+            var existingEntity = context.CHITIETMUONs.Find(maPM, maSach);
+            if (existingEntity != null)
+            {
+                context.CHITIETMUONs.Remove(existingEntity);
+                context.SaveChanges();
+            }
+        }
+        public List<int> GetMaPMByStatus(string status)
+        {
+            using (var db = new QUANLYTHUVIENEntities2())
+            {
+                return db.PHIEUMUONs
+                         .Where(pm => pm.TINHTRANG == status)
+                         .Select(pm => pm.MAPM)
+                         .ToList();
+            }
+        }
+
     }
 }

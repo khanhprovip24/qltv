@@ -125,61 +125,66 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Khánh làm\formChiTietMuon.cs">
+    <Compile Include="formTaoCTM.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Khánh làm\formChiTietMuon.Designer.cs">
+    <Compile Include="formTaoCTM.Designer.cs">
+      <DependentUpon>formTaoCTM.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formChiTietMuon.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formChiTietMuon.Designer.cs">
       <DependentUpon>formChiTietMuon.cs</DependentUpon>
     </Compile>
-    <Compile Include="Giao diện chung\formMain.cs">
+    <Compile Include="formMain.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Giao diện chung\formMain.Designer.cs">
+    <Compile Include="formMain.Designer.cs">
       <DependentUpon>formMain.cs</DependentUpon>
     </Compile>
-    <Compile Include="Giao diện chung\formLogin.cs">
+    <Compile Include="formLogin.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Giao diện chung\formLogin.Designer.cs">
+    <Compile Include="formLogin.Designer.cs">
       <DependentUpon>formLogin.cs</DependentUpon>
     </Compile>
-    <Compile Include="Thịnh làm\FormNXB.cs">
+    <Compile Include="FormNXB.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Thịnh làm\FormNXB.Designer.cs">
+    <Compile Include="FormNXB.Designer.cs">
       <DependentUpon>FormNXB.cs</DependentUpon>
     </Compile>
-    <Compile Include="Khánh làm\formQLYDocGia.cs">
+    <Compile Include="formQLYDocGia.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Khánh làm\formQLYDocGia.Designer.cs">
+    <Compile Include="formQLYDocGia.Designer.cs">
       <DependentUpon>formQLYDocGia.cs</DependentUpon>
     </Compile>
-    <Compile Include="Dũng làm\FormQuanLySach.cs">
+    <Compile Include="FormQuanLySach.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Dũng làm\FormQuanLySach.Designer.cs">
+    <Compile Include="FormQuanLySach.Designer.cs">
       <DependentUpon>FormQuanLySach.cs</DependentUpon>
     </Compile>
-    <Compile Include="Khánh làm\formQuyDinh.cs">
+    <Compile Include="formQuyDinh.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Khánh làm\formQuyDinh.Designer.cs">
+    <Compile Include="formQuyDinh.Designer.cs">
       <DependentUpon>formQuyDinh.cs</DependentUpon>
     </Compile>
-    <Compile Include="Thịnh làm\FormTacGia.cs">
+    <Compile Include="FormTacGia.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Thịnh làm\FormTacGia.Designer.cs">
+    <Compile Include="FormTacGia.Designer.cs">
       <DependentUpon>FormTacGia.cs</DependentUpon>
     </Compile>
-    <Compile Include="Khánh làm\formTaoPhieu.cs">
+    <Compile Include="formTaoPhieu.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Khánh làm\formTaoPhieu.Designer.cs">
+    <Compile Include="formTaoPhieu.Designer.cs">
       <DependentUpon>formTaoPhieu.cs</DependentUpon>
     </Compile>
-<<<<<<< HEAD
     <Compile Include="formTaoPhieu2.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -187,33 +192,29 @@
       <DependentUpon>formTaoPhieu2.cs</DependentUpon>
     </Compile>
     <Compile Include="formTaoTK.cs">
-=======
-    <Compile Include="Khánh làm\formTaoTK.cs">
->>>>>>> 6b031703c54540860ae43b8b174bc014e5a46120
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Khánh làm\formTaoTK.Designer.cs">
+    <Compile Include="formTaoTK.Designer.cs">
       <DependentUpon>formTaoTK.cs</DependentUpon>
     </Compile>
-    <Compile Include="Dũng làm\FormThemTheLoai.cs">
+    <Compile Include="FormThemTheLoai.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Dũng làm\FormThemTheLoai.Designer.cs">
+    <Compile Include="FormThemTheLoai.Designer.cs">
       <DependentUpon>FormThemTheLoai.cs</DependentUpon>
     </Compile>
-    <Compile Include="Dũng làm\FormTheLoaiSach.cs">
+    <Compile Include="FormTheLoaiSach.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Dũng làm\FormTheLoaiSach.Designer.cs">
+    <Compile Include="FormTheLoaiSach.Designer.cs">
       <DependentUpon>FormTheLoaiSach.cs</DependentUpon>
     </Compile>
-    <Compile Include="Dũng làm\FormThemSach.cs">
+    <Compile Include="FormThemSach.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Dũng làm\FormThemSach.Designer.cs">
+    <Compile Include="FormThemSach.Designer.cs">
       <DependentUpon>FormThemSach.cs</DependentUpon>
     </Compile>
-<<<<<<< HEAD
     <Compile Include="formTroGiup.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -221,35 +222,34 @@
       <DependentUpon>formTroGiup.cs</DependentUpon>
     </Compile>
     <Compile Include="fromQLYThuThu.cs">
-=======
-    <Compile Include="Khánh làm\fromQLYThuThu.cs">
->>>>>>> 6b031703c54540860ae43b8b174bc014e5a46120
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Khánh làm\fromQLYThuThu.Designer.cs">
+    <Compile Include="fromQLYThuThu.Designer.cs">
       <DependentUpon>fromQLYThuThu.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Khánh làm\formChiTietMuon.resx">
+    <EmbeddedResource Include="formChiTietMuon.resx">
       <DependentUpon>formChiTietMuon.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Giao diện chung\formMain.resx">
+    <EmbeddedResource Include="formMain.resx">
       <DependentUpon>formMain.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Giao diện chung\formLogin.resx">
+    <EmbeddedResource Include="formLogin.resx">
       <DependentUpon>formLogin.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Khánh làm\formQLYDocGia.resx">
+    <EmbeddedResource Include="formQLYDocGia.resx">
       <DependentUpon>formQLYDocGia.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Khánh làm\formQuyDinh.resx">
+    <EmbeddedResource Include="formQuyDinh.resx">
       <DependentUpon>formQuyDinh.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Khánh làm\formTaoPhieu.resx">
+    <EmbeddedResource Include="formTaoCTM.resx">
+      <DependentUpon>formTaoCTM.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formTaoPhieu.resx">
       <DependentUpon>formTaoPhieu.cs</DependentUpon>
     </EmbeddedResource>
-<<<<<<< HEAD
     <EmbeddedResource Include="formTaoPhieu2.resx">
       <DependentUpon>formTaoPhieu2.cs</DependentUpon>
     </EmbeddedResource>
@@ -260,12 +260,6 @@
       <DependentUpon>formTroGiup.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="fromQLYThuThu.resx">
-=======
-    <EmbeddedResource Include="Khánh làm\formTaoTK.resx">
-      <DependentUpon>formTaoTK.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Khánh làm\fromQLYThuThu.resx">
->>>>>>> 6b031703c54540860ae43b8b174bc014e5a46120
       <DependentUpon>fromQLYThuThu.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
@@ -305,6 +299,5 @@
   <ItemGroup>
     <None Include="Resources\242898969.jpg" />
   </ItemGroup>
-  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
