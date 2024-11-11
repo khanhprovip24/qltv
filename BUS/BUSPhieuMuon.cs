@@ -37,5 +37,18 @@ namespace BUS
         {
             DALPhieuMuon.Instance.AddPhieuMuon(pm);
         }
+        public int GetNextId()
+        {
+          return DALPhieuMuon.Instance.GetNextId();
+        }
+        
+        public List<PHIEUMUON> GetPhieuMuonByMaPM(int maPM)
+        {
+            return DALPhieuMuon.Instance.GetPhieuMuonByMaPM(maPM);
+        }
+        public List<PHIEUMUON> GetPhieuMuonByMaDocGia(int maDG)
+        {
+            return DALPhieuMuon.Instance.GetPhieuMuonByMaDocGia(maDG);
+        }
     }
 }

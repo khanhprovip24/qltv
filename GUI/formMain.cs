@@ -145,5 +145,11 @@ namespace GUI
             FormTacGia f = new FormTacGia();
             f.Show();
         }
+
+        private void trợGiúpToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            formTroGiup f -new Form();
+            f.Show();
+        }
     }
 }

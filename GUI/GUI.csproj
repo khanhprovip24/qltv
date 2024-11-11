@@ -179,6 +179,12 @@
     <Compile Include="formTaoPhieu.Designer.cs">
       <DependentUpon>formTaoPhieu.cs</DependentUpon>
     </Compile>
+    <Compile Include="formTaoPhieu2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formTaoPhieu2.Designer.cs">
+      <DependentUpon>formTaoPhieu2.cs</DependentUpon>
+    </Compile>
     <Compile Include="formTaoTK.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -202,6 +208,12 @@
     </Compile>
     <Compile Include="FormThemSach.Designer.cs">
       <DependentUpon>FormThemSach.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formTroGiup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formTroGiup.Designer.cs">
+      <DependentUpon>formTroGiup.cs</DependentUpon>
     </Compile>
     <Compile Include="fromQLYThuThu.cs">
       <SubType>Form</SubType>
@@ -229,8 +241,14 @@
     <EmbeddedResource Include="formTaoPhieu.resx">
       <DependentUpon>formTaoPhieu.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="formTaoPhieu2.resx">
+      <DependentUpon>formTaoPhieu2.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="formTaoTK.resx">
       <DependentUpon>formTaoTK.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formTroGiup.resx">
+      <DependentUpon>formTroGiup.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="fromQLYThuThu.resx">
       <DependentUpon>fromQLYThuThu.cs</DependentUpon>

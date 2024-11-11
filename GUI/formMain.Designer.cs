@@ -136,42 +136,42 @@
             // qLySáchToolStripMenuItem
             // 
             this.qLySáchToolStripMenuItem.Name = "qLySáchToolStripMenuItem";
-            this.qLySáchToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.qLySáchToolStripMenuItem.Size = new System.Drawing.Size(210, 26);
             this.qLySáchToolStripMenuItem.Text = "QLy Sách";
             this.qLySáchToolStripMenuItem.Click += new System.EventHandler(this.qLySáchToolStripMenuItem_Click);
             // 
             // qLyĐộcGiảToolStripMenuItem
             // 
             this.qLyĐộcGiảToolStripMenuItem.Name = "qLyĐộcGiảToolStripMenuItem";
-            this.qLyĐộcGiảToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.qLyĐộcGiảToolStripMenuItem.Size = new System.Drawing.Size(210, 26);
             this.qLyĐộcGiảToolStripMenuItem.Text = "QLy Độc giả ";
             this.qLyĐộcGiảToolStripMenuItem.Click += new System.EventHandler(this.qLyĐộcGiảToolStripMenuItem_Click);
             // 
             // qLyThểLoạiToolStripMenuItem
             // 
             this.qLyThểLoạiToolStripMenuItem.Name = "qLyThểLoạiToolStripMenuItem";
-            this.qLyThểLoạiToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.qLyThểLoạiToolStripMenuItem.Size = new System.Drawing.Size(210, 26);
             this.qLyThểLoạiToolStripMenuItem.Text = "QLy Thể Loại";
             this.qLyThểLoạiToolStripMenuItem.Click += new System.EventHandler(this.qLyThểLoạiToolStripMenuItem_Click);
             // 
             // qLyTácGiảToolStripMenuItem
             // 
             this.qLyTácGiảToolStripMenuItem.Name = "qLyTácGiảToolStripMenuItem";
-            this.qLyTácGiảToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.qLyTácGiảToolStripMenuItem.Size = new System.Drawing.Size(210, 26);
             this.qLyTácGiảToolStripMenuItem.Text = "QLy Tác Giả";
             this.qLyTácGiảToolStripMenuItem.Click += new System.EventHandler(this.qLyTácGiảToolStripMenuItem_Click);
             // 
             // qLyNhàXuấtBảnToolStripMenuItem
             // 
             this.qLyNhàXuấtBảnToolStripMenuItem.Name = "qLyNhàXuấtBảnToolStripMenuItem";
-            this.qLyNhàXuấtBảnToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.qLyNhàXuấtBảnToolStripMenuItem.Size = new System.Drawing.Size(210, 26);
             this.qLyNhàXuấtBảnToolStripMenuItem.Text = "QLy Nhà Xuất bản";
             this.qLyNhàXuấtBảnToolStripMenuItem.Click += new System.EventHandler(this.qLyNhàXuấtBảnToolStripMenuItem_Click);
             // 
             // qLyThủToolStripMenuItem
             // 
             this.qLyThủToolStripMenuItem.Name = "qLyThủToolStripMenuItem";
-            this.qLyThủToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.qLyThủToolStripMenuItem.Size = new System.Drawing.Size(210, 26);
             this.qLyThủToolStripMenuItem.Text = "QLy Thủ Thư";
             this.qLyThủToolStripMenuItem.Click += new System.EventHandler(this.qLyThủToolStripMenuItem_Click);
             // 
@@ -215,6 +215,7 @@
             this.trợGiúpToolStripMenuItem.Name = "trợGiúpToolStripMenuItem";
             this.trợGiúpToolStripMenuItem.Size = new System.Drawing.Size(78, 24);
             this.trợGiúpToolStripMenuItem.Text = "Trợ giúp";
+            this.trợGiúpToolStripMenuItem.Click += new System.EventHandler(this.trợGiúpToolStripMenuItem_Click);
             // 
             // toolStripMenuItem1
             // 

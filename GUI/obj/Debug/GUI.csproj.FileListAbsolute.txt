@@ -291,3 +291,4 @@ D:\BTL-qltv\GUI\obj\Debug\GUI.exe
 D:\BTL-qltv\GUI\obj\Debug\GUI.pdb
 D:\BTL-qltv\GUI\obj\Debug\GUI.formChiTietMuon.resources
 D:\BTL-qltv\GUI\obj\Debug\GUI.formTaoPhieu.resources
+D:\BTL-qltv\GUI\obj\Debug\GUI.formTaoPhieu2.resources

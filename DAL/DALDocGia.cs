@@ -49,6 +49,10 @@ namespace DAL
         {
             return QUANLYTHUVIENEntities2.Instance.DOCGIAs.Where(x => x.MADG == id).Select(x => x.TENDG).FirstOrDefault();
         }
-        
+        public List<int> GetAllDGId()
+        {
+            return QUANLYTHUVIENEntities2.Instance.DOCGIAs.Select(x => x.MADG).ToList();
+        }
+
     }
 }

@@ -40,13 +40,14 @@ namespace DAL
         public void DeletePhieuMuon(PHIEUMUON pm)
         {
             var context = QUANLYTHUVIENEntities2.Instance;
-            if (context.Entry(pm).State == EntityState.Detached)
+            var existingEntity = context.PHIEUMUONs.Find(pm.MAPM);
+            if (existingEntity != null)
             {
-                context.PHIEUMUONs.Attach(pm);
+                context.PHIEUMUONs.Remove(existingEntity);
+                context.SaveChanges();
             }
-            context.PHIEUMUONs.Remove(pm);
-            context.SaveChanges();
         }
+
 
 
 
@@ -55,6 +56,20 @@ namespace DAL
             QUANLYTHUVIENEntities2 db = new QUANLYTHUVIENEntities2();
             db.PHIEUMUONs.Add(pm);
             db.SaveChanges();
+        }
+        public int GetNextId()
+        {
+            return QUANLYTHUVIENEntities2.Instance.PHIEUMUONs.Max(x => x.MAPM) + 1;
+        }
+        public List<PHIEUMUON> GetPhieuMuonByMaDocGia(int madg)
+        {
+            QUANLYTHUVIENEntities2 db = new QUANLYTHUVIENEntities2();
+            return db.PHIEUMUONs.Where(x => x.MADG == madg).ToList();
+        }
+        public List<PHIEUMUON> GetPhieuMuonByMaPM(int maPM)
+        {
+            QUANLYTHUVIENEntities2 db = new QUANLYTHUVIENEntities2();
+            return db.PHIEUMUONs.Where(x => x.MAPM == maPM).ToList();
         }
     }
 }

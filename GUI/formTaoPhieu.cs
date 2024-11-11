@@ -66,37 +66,60 @@ namespace GUI
             dateMuon.Enabled = true;
             dateTra.Enabled = true;
         }
-        
 
+        private void themTenDG()
+        {
+            // Thêm cột mới để hiển thị tên độc giả
+            
+
+            // Lặp qua từng hàng và gán tên độc giả vào cột mới
+            foreach (DataGridViewRow row in gridPhieu.Rows)
+            {
+                int maDG = (int)row.Cells["MADG"].Value;
+                string tenDocGia = busDG.GetNameByID(maDG);
+                row.Cells["TenDocGia"].Value = tenDocGia;
+            }
+        }
         private void formTaoPhieu_Load(object sender, EventArgs e)
         {
-            gridPhieu.DataSource = busPM.GetAllPhieuMuon();
+          
+           
+        
+        gridPhieu.DataSource = busPM.GetAllPhieuMuon();
             gridPhieu.Columns["DOCGIA"].Visible = false;
             gridPhieu.Columns["CHITIETMUONs"].Visible = false;
-           an();
+            DataGridViewTextBoxColumn tenDocGiaColumn = new DataGridViewTextBoxColumn();
+            tenDocGiaColumn.Name = "TenDocGia";
+            tenDocGiaColumn.HeaderText = "Tên Độc Giả";
+            gridPhieu.Columns.Add(tenDocGiaColumn);
+            themTenDG();
+            an();
         }
+
 
         private void gridPhieu_CellClick(object sender, DataGridViewCellEventArgs e)
         {
             hien();
-            txtMaPhieu.Text=gridPhieu.CurrentRow.Cells["MAPM"].Value.ToString();
-            cbbTenDG.Text =busDG.GetNameByID(int.Parse(gridPhieu.CurrentRow.Cells["MADG"].Value.ToString()));
-            cbbMaDG.Text = gridPhieu.CurrentRow.Cells["MADG"].Value.ToString();
-            cbbTT.Text = gridPhieu.CurrentRow.Cells["TINHTRANG"].Value.ToString();
-            dateMuon.Text = gridPhieu.CurrentRow.Cells["NGAYMUON"].Value.ToString();
-            dateTra.Text = gridPhieu.CurrentRow.Cells["NGAYTRA"].Value.ToString();
+            if (gridPhieu.CurrentRow != null)
+            {
+                txtMaPhieu.Text = gridPhieu.CurrentRow.Cells["MAPM"]?.Value?.ToString() ?? string.Empty;
+                cbbTenDG.Text = busDG.GetNameByID(int.Parse(gridPhieu.CurrentRow.Cells["MADG"]?.Value?.ToString() ?? "0"));
+                cbbMaDG.Text = gridPhieu.CurrentRow.Cells["MADG"]?.Value?.ToString() ?? string.Empty;
+                cbbTT.Text = gridPhieu.CurrentRow.Cells["TINHTRANG"]?.Value?.ToString() ?? string.Empty;
+                dateMuon.Text = gridPhieu.CurrentRow.Cells["NGAYMUON"]?.Value?.ToString() ?? string.Empty;
+                dateTra.Text = gridPhieu.CurrentRow.Cells["NGAYTRA"]?.Value?.ToString() ?? string.Empty;
+                txtTSS.Text = gridPhieu.CurrentRow.Cells["TONGSO_SACH"]?.Value?.ToString() ?? string.Empty;
+            }
         }
+
 
         private void btnThem_Click(object sender, EventArgs e)
         {
-            hien();
-            btnLuu.Enabled = true;
-            txtMaPhieu.Text ="";
-            cbbTenDG.Text = "";
-            cbbMaDG.Text = "";
-            cbbTT.Text = "";
-            dateMuon.Text = DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss");
-            dateTra.Text = "";
+           formTaoPhieu2 f = new formTaoPhieu2();
+            f.ShowDialog();
+            gridPhieu.DataSource = busPM.GetAllPhieuMuon();
+            themTenDG();
+            gridPhieu.Refresh();
         }
 
         private void btnSua_Click(object sender, EventArgs e)
@@ -108,11 +131,18 @@ namespace GUI
                 MADG = int.Parse(cbbMaDG.Text),
                 NGAYMUON = DateTime.Parse(dateMuon.Text),
                 NGAYTRA = DateTime.Parse(dateTra.Text),
-                TINHTRANG = cbbTT.Text
+                TINHTRANG = cbbTT.Text,
+                TONGSO_SACH = int.Parse(txtTSS.Text)
 
             };
             busPM.UpdatePhieuMuon(pm);
+            busDG.updateDG(new DOCGIA
+            {
+                MADG = int.Parse(cbbMaDG.Text),
+                TENDG = cbbTenDG.Text
+            });
             gridPhieu.DataSource = busPM.GetAllPhieuMuon();
+            themTenDG();
             gridPhieu.Refresh();
             an();
         }
@@ -127,11 +157,13 @@ namespace GUI
                   MessageBox.Show("đã xóa thành công");
                 gridPhieu.Refresh();
                 an();
+
             }
             else
             {
                 MessageBox.Show("Vui lòng chọn một phiếu mượn để xóa.");
             }
+            themTenDG();
         }
 
         private void btnLuu_Click(object sender, EventArgs e)
@@ -148,8 +180,58 @@ namespace GUI
             btnLuu.Enabled = false;
             busPM.AddPhieuMuon(pm);
             gridPhieu.DataSource = busPM.GetAllPhieuMuon();
+       
             gridPhieu.Refresh();
+            themTenDG();
             an();
         }
+
+        private void cbbMaDG_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            cbbTenDG.Text = busDG.GetNameByID(int.Parse(cbbMaDG.Text));
+        }
+
+        private void gridPhieu_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void btnTimKiem_Click(object sender, EventArgs e)
+        {
+            int searchValue;
+            if (radioButtonMaDG.Checked)
+            {
+                if (int.TryParse(txtTimKiem.Text, out searchValue))
+                {
+                    gridPhieu.DataSource = busPM.GetPhieuMuonByMaDocGia(searchValue);
+                    themTenDG();
+                }
+                else
+                {
+                    MessageBox.Show("Vui lòng nhập một số hợp lệ.");
+                    gridPhieu.DataSource = busPM.GetAllPhieuMuon();
+                    themTenDG();
+                }
+            }
+            else if (radioButtonMaPhieu.Checked)
+            {
+                if (int.TryParse(txtTimKiem.Text, out searchValue))
+                {
+                    gridPhieu.DataSource = busPM.GetPhieuMuonByMaPM(searchValue);
+                    themTenDG();
+                }
+                else
+                {
+                    MessageBox.Show("Vui lòng nhập một số hợp lệ.");
+                    gridPhieu.DataSource = busPM.GetAllPhieuMuon();
+                    themTenDG();
+                }
+            }
+            else
+            {
+                MessageBox.Show("Vui lòng chọn một trong hai phương thức tìm kiếm.");
+            }
+        }
+
     }
 }

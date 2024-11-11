@@ -41,6 +41,10 @@ namespace BUS
         {
             return dalDG.GetNameByID(id);
         }
-        
+        public List<int> GetAllDGId()
+        {
+            return dalDG.GetAllDGId();
+        }
+
     }
 }
