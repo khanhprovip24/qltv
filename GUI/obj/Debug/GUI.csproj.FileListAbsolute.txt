@@ -294,3 +294,277 @@ D:\BTL-qltv\GUI\obj\Debug\GUI.formTaoPhieu.resources
 D:\BTL-qltv\GUI\obj\Debug\GUI.formTaoPhieu2.resources
 D:\BTL-qltv\GUI\obj\Debug\GUI.formTroGiup.resources
 D:\BTL-qltv\GUI\obj\Debug\GUI.formTaoCTM.resources
+C:\Users\Lenovo\Desktop\btl-git\qltv\GUI\bin\Debug\GUI.exe.config
+C:\Users\Lenovo\Desktop\btl-git\qltv\GUI\bin\Debug\GUI.exe
+C:\Users\Lenovo\Desktop\btl-git\qltv\GUI\bin\Debug\GUI.pdb
+C:\Users\Lenovo\Desktop\btl-git\qltv\GUI\bin\Debug\BUS.dll
+C:\Users\Lenovo\Desktop\btl-git\qltv\GUI\bin\Debug\DTO.dll
+C:\Users\Lenovo\Desktop\btl-git\qltv\GUI\bin\Debug\EntityFramework.dll
+C:\Users\Lenovo\Desktop\btl-git\qltv\GUI\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Lenovo\Desktop\btl-git\qltv\GUI\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Lenovo\Desktop\btl-git\qltv\GUI\bin\Debug\Microsoft.Bcl.HashCode.dll
+C:\Users\Lenovo\Desktop\btl-git\qltv\GUI\bin\Debug\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Lenovo\Desktop\btl-git\qltv\GUI\bin\Debug\Microsoft.EntityFrameworkCore.dll
+C:\Users\Lenovo\Desktop\btl-git\qltv\GUI\bin\Debug\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\Lenovo\Desktop\btl-git\qltv\GUI\bin\Debug\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\Lenovo\Desktop\btl-git\qltv\GUI\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\Lenovo\Desktop\btl-git\qltv\GUI\bin\Debug\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\Lenovo\Desktop\btl-git\qltv\GUI\bin\Debug\Microsoft.Extensions.Configuration.dll
+C:\Users\Lenovo\Desktop\btl-git\qltv\GUI\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Lenovo\Desktop\btl-git\qltv\GUI\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Lenovo\Desktop\btl-git\qltv\GUI\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Lenovo\Desktop\btl-git\qltv\GUI\bin\Debug\Microsoft.Extensions.Logging.dll
+C:\Users\Lenovo\Desktop\btl-git\qltv\GUI\bin\Debug\Microsoft.Extensions.Options.dll
+C:\Users\Lenovo\Desktop\btl-git\qltv\GUI\bin\Debug\Microsoft.Extensions.Primitives.dll
+C:\Users\Lenovo\Desktop\btl-git\qltv\GUI\bin\Debug\System.Buffers.dll
+C:\Users\Lenovo\Desktop\btl-git\qltv\GUI\bin\Debug\System.Collections.Immutable.dll
+C:\Users\Lenovo\Desktop\btl-git\qltv\GUI\bin\Debug\System.ComponentModel.Annotations.dll
+C:\Users\Lenovo\Desktop\btl-git\qltv\GUI\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Lenovo\Desktop\btl-git\qltv\GUI\bin\Debug\System.Memory.dll
+C:\Users\Lenovo\Desktop\btl-git\qltv\GUI\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Lenovo\Desktop\btl-git\qltv\GUI\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Lenovo\Desktop\btl-git\qltv\GUI\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\Lenovo\Desktop\btl-git\qltv\GUI\bin\Debug\DAL.dll
+C:\Users\Lenovo\Desktop\btl-git\qltv\GUI\bin\Debug\BUS.pdb
+C:\Users\Lenovo\Desktop\btl-git\qltv\GUI\bin\Debug\BUS.dll.config
+C:\Users\Lenovo\Desktop\btl-git\qltv\GUI\bin\Debug\DTO.pdb
+C:\Users\Lenovo\Desktop\btl-git\qltv\GUI\bin\Debug\DTO.dll.config
+C:\Users\Lenovo\Desktop\btl-git\qltv\GUI\bin\Debug\EntityFramework.xml
+C:\Users\Lenovo\Desktop\btl-git\qltv\GUI\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Lenovo\Desktop\btl-git\qltv\GUI\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\Lenovo\Desktop\btl-git\qltv\GUI\bin\Debug\Microsoft.Bcl.HashCode.xml
+C:\Users\Lenovo\Desktop\btl-git\qltv\GUI\bin\Debug\Microsoft.EntityFrameworkCore.xml
+C:\Users\Lenovo\Desktop\btl-git\qltv\GUI\bin\Debug\Microsoft.EntityFrameworkCore.Abstractions.xml
+C:\Users\Lenovo\Desktop\btl-git\qltv\GUI\bin\Debug\Microsoft.Extensions.Caching.Abstractions.xml
+C:\Users\Lenovo\Desktop\btl-git\qltv\GUI\bin\Debug\Microsoft.Extensions.Caching.Memory.xml
+C:\Users\Lenovo\Desktop\btl-git\qltv\GUI\bin\Debug\Microsoft.Extensions.Configuration.xml
+C:\Users\Lenovo\Desktop\btl-git\qltv\GUI\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.xml
+C:\Users\Lenovo\Desktop\btl-git\qltv\GUI\bin\Debug\Microsoft.Extensions.Configuration.Binder.xml
+C:\Users\Lenovo\Desktop\btl-git\qltv\GUI\bin\Debug\Microsoft.Extensions.DependencyInjection.xml
+C:\Users\Lenovo\Desktop\btl-git\qltv\GUI\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\Lenovo\Desktop\btl-git\qltv\GUI\bin\Debug\Microsoft.Extensions.Logging.xml
+C:\Users\Lenovo\Desktop\btl-git\qltv\GUI\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+C:\Users\Lenovo\Desktop\btl-git\qltv\GUI\bin\Debug\Microsoft.Extensions.Options.xml
+C:\Users\Lenovo\Desktop\btl-git\qltv\GUI\bin\Debug\Microsoft.Extensions.Primitives.xml
+C:\Users\Lenovo\Desktop\btl-git\qltv\GUI\bin\Debug\System.Buffers.xml
+C:\Users\Lenovo\Desktop\btl-git\qltv\GUI\bin\Debug\System.Collections.Immutable.xml
+C:\Users\Lenovo\Desktop\btl-git\qltv\GUI\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Users\Lenovo\Desktop\btl-git\qltv\GUI\bin\Debug\System.Memory.xml
+C:\Users\Lenovo\Desktop\btl-git\qltv\GUI\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\Lenovo\Desktop\btl-git\qltv\GUI\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Lenovo\Desktop\btl-git\qltv\GUI\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\Lenovo\Desktop\btl-git\qltv\GUI\bin\Debug\DAL.pdb
+C:\Users\Lenovo\Desktop\btl-git\qltv\GUI\bin\Debug\DAL.dll.config
+C:\Users\Lenovo\Desktop\btl-git\qltv\GUI\obj\Debug\GUI.csproj.AssemblyReference.cache
+C:\Users\Lenovo\Desktop\btl-git\qltv\GUI\obj\Debug\GUI.formChiTietMuon.resources
+C:\Users\Lenovo\Desktop\btl-git\qltv\GUI\obj\Debug\GUI.formMain.resources
+C:\Users\Lenovo\Desktop\btl-git\qltv\GUI\obj\Debug\GUI.formLogin.resources
+C:\Users\Lenovo\Desktop\btl-git\qltv\GUI\obj\Debug\GUI.formQLYDocGia.resources
+C:\Users\Lenovo\Desktop\btl-git\qltv\GUI\obj\Debug\GUI.formQuyDinh.resources
+C:\Users\Lenovo\Desktop\btl-git\qltv\GUI\obj\Debug\GUI.formTaoCTM.resources
+C:\Users\Lenovo\Desktop\btl-git\qltv\GUI\obj\Debug\GUI.formTaoPhieu.resources
+C:\Users\Lenovo\Desktop\btl-git\qltv\GUI\obj\Debug\GUI.formTaoPhieu2.resources
+C:\Users\Lenovo\Desktop\btl-git\qltv\GUI\obj\Debug\GUI.formTaoTK.resources
+C:\Users\Lenovo\Desktop\btl-git\qltv\GUI\obj\Debug\GUI.formTroGiup.resources
+C:\Users\Lenovo\Desktop\btl-git\qltv\GUI\obj\Debug\GUI.fromQLYThuThu.resources
+C:\Users\Lenovo\Desktop\btl-git\qltv\GUI\obj\Debug\GUI.Properties.Resources.resources
+C:\Users\Lenovo\Desktop\btl-git\qltv\GUI\obj\Debug\GUI.csproj.GenerateResource.cache
+C:\Users\Lenovo\Desktop\btl-git\qltv\GUI\obj\Debug\GUI.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\Desktop\btl-git\qltv\GUI\obj\Debug\GUI.csproj.Up2Date
+C:\Users\Lenovo\Desktop\btl-git\qltv\GUI\obj\Debug\GUI.exe
+C:\Users\Lenovo\Desktop\btl-git\qltv\GUI\obj\Debug\GUI.pdb
+C:\Users\Lenovo\Desktop\btl-git\qltv - Copy\GUI\obj\Debug\GUI.csproj.AssemblyReference.cache
+C:\Users\Lenovo\Desktop\btl-git\qltv - Copy\GUI\obj\Debug\GUI.formChiTietMuon.resources
+C:\Users\Lenovo\Desktop\btl-git\qltv - Copy\GUI\obj\Debug\GUI.formMain.resources
+C:\Users\Lenovo\Desktop\btl-git\qltv - Copy\GUI\obj\Debug\GUI.formLogin.resources
+C:\Users\Lenovo\Desktop\btl-git\qltv - Copy\GUI\obj\Debug\GUI.formQLYDocGia.resources
+C:\Users\Lenovo\Desktop\btl-git\qltv - Copy\GUI\obj\Debug\GUI.formQuyDinh.resources
+C:\Users\Lenovo\Desktop\btl-git\qltv - Copy\GUI\obj\Debug\GUI.formTaoCTM.resources
+C:\Users\Lenovo\Desktop\btl-git\qltv - Copy\GUI\obj\Debug\GUI.formTaoPhieu.resources
+C:\Users\Lenovo\Desktop\btl-git\qltv - Copy\GUI\obj\Debug\GUI.formTaoPhieu2.resources
+C:\Users\Lenovo\Desktop\btl-git\qltv - Copy\GUI\obj\Debug\GUI.formTaoTK.resources
+C:\Users\Lenovo\Desktop\btl-git\qltv - Copy\GUI\obj\Debug\GUI.formTroGiup.resources
+C:\Users\Lenovo\Desktop\btl-git\qltv - Copy\GUI\obj\Debug\GUI.fromQLYThuThu.resources
+C:\Users\Lenovo\Desktop\btl-git\qltv - Copy\GUI\obj\Debug\GUI.Properties.Resources.resources
+C:\Users\Lenovo\Desktop\btl-git\qltv - Copy\GUI\obj\Debug\GUI.csproj.GenerateResource.cache
+C:\Users\Lenovo\Desktop\btl-git\qltv - Copy\GUI\obj\Debug\GUI.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\Desktop\btl-git\qltv - Copy\GUI\obj\Debug\GUI.exe
+C:\Users\Lenovo\Desktop\btl-git\qltv - Copy\GUI\obj\Debug\GUI.pdb
+C:\Users\Lenovo\Desktop\btl-git\qltv - Copy\GUI\bin\Debug\GUI.exe.config
+C:\Users\Lenovo\Desktop\btl-git\qltv - Copy\GUI\bin\Debug\GUI.exe
+C:\Users\Lenovo\Desktop\btl-git\qltv - Copy\GUI\bin\Debug\GUI.pdb
+C:\Users\Lenovo\Desktop\btl-git\qltv - Copy\GUI\bin\Debug\BUS.dll
+C:\Users\Lenovo\Desktop\btl-git\qltv - Copy\GUI\bin\Debug\DTO.dll
+C:\Users\Lenovo\Desktop\btl-git\qltv - Copy\GUI\bin\Debug\EntityFramework.dll
+C:\Users\Lenovo\Desktop\btl-git\qltv - Copy\GUI\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Lenovo\Desktop\btl-git\qltv - Copy\GUI\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Lenovo\Desktop\btl-git\qltv - Copy\GUI\bin\Debug\Microsoft.Bcl.HashCode.dll
+C:\Users\Lenovo\Desktop\btl-git\qltv - Copy\GUI\bin\Debug\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Lenovo\Desktop\btl-git\qltv - Copy\GUI\bin\Debug\Microsoft.EntityFrameworkCore.dll
+C:\Users\Lenovo\Desktop\btl-git\qltv - Copy\GUI\bin\Debug\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\Lenovo\Desktop\btl-git\qltv - Copy\GUI\bin\Debug\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\Lenovo\Desktop\btl-git\qltv - Copy\GUI\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\Lenovo\Desktop\btl-git\qltv - Copy\GUI\bin\Debug\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\Lenovo\Desktop\btl-git\qltv - Copy\GUI\bin\Debug\Microsoft.Extensions.Configuration.dll
+C:\Users\Lenovo\Desktop\btl-git\qltv - Copy\GUI\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Lenovo\Desktop\btl-git\qltv - Copy\GUI\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Lenovo\Desktop\btl-git\qltv - Copy\GUI\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Lenovo\Desktop\btl-git\qltv - Copy\GUI\bin\Debug\Microsoft.Extensions.Logging.dll
+C:\Users\Lenovo\Desktop\btl-git\qltv - Copy\GUI\bin\Debug\Microsoft.Extensions.Options.dll
+C:\Users\Lenovo\Desktop\btl-git\qltv - Copy\GUI\bin\Debug\Microsoft.Extensions.Primitives.dll
+C:\Users\Lenovo\Desktop\btl-git\qltv - Copy\GUI\bin\Debug\System.Buffers.dll
+C:\Users\Lenovo\Desktop\btl-git\qltv - Copy\GUI\bin\Debug\System.Collections.Immutable.dll
+C:\Users\Lenovo\Desktop\btl-git\qltv - Copy\GUI\bin\Debug\System.ComponentModel.Annotations.dll
+C:\Users\Lenovo\Desktop\btl-git\qltv - Copy\GUI\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Lenovo\Desktop\btl-git\qltv - Copy\GUI\bin\Debug\System.Memory.dll
+C:\Users\Lenovo\Desktop\btl-git\qltv - Copy\GUI\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Lenovo\Desktop\btl-git\qltv - Copy\GUI\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Lenovo\Desktop\btl-git\qltv - Copy\GUI\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\Lenovo\Desktop\btl-git\qltv - Copy\GUI\bin\Debug\DAL.dll
+C:\Users\Lenovo\Desktop\btl-git\qltv - Copy\GUI\bin\Debug\BUS.pdb
+C:\Users\Lenovo\Desktop\btl-git\qltv - Copy\GUI\bin\Debug\BUS.dll.config
+C:\Users\Lenovo\Desktop\btl-git\qltv - Copy\GUI\bin\Debug\DTO.pdb
+C:\Users\Lenovo\Desktop\btl-git\qltv - Copy\GUI\bin\Debug\DTO.dll.config
+C:\Users\Lenovo\Desktop\btl-git\qltv - Copy\GUI\bin\Debug\EntityFramework.xml
+C:\Users\Lenovo\Desktop\btl-git\qltv - Copy\GUI\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Lenovo\Desktop\btl-git\qltv - Copy\GUI\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\Lenovo\Desktop\btl-git\qltv - Copy\GUI\bin\Debug\Microsoft.Bcl.HashCode.xml
+C:\Users\Lenovo\Desktop\btl-git\qltv - Copy\GUI\bin\Debug\Microsoft.EntityFrameworkCore.xml
+C:\Users\Lenovo\Desktop\btl-git\qltv - Copy\GUI\bin\Debug\Microsoft.EntityFrameworkCore.Abstractions.xml
+C:\Users\Lenovo\Desktop\btl-git\qltv - Copy\GUI\bin\Debug\Microsoft.Extensions.Caching.Abstractions.xml
+C:\Users\Lenovo\Desktop\btl-git\qltv - Copy\GUI\bin\Debug\Microsoft.Extensions.Caching.Memory.xml
+C:\Users\Lenovo\Desktop\btl-git\qltv - Copy\GUI\bin\Debug\Microsoft.Extensions.Configuration.xml
+C:\Users\Lenovo\Desktop\btl-git\qltv - Copy\GUI\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.xml
+C:\Users\Lenovo\Desktop\btl-git\qltv - Copy\GUI\bin\Debug\Microsoft.Extensions.Configuration.Binder.xml
+C:\Users\Lenovo\Desktop\btl-git\qltv - Copy\GUI\bin\Debug\Microsoft.Extensions.DependencyInjection.xml
+C:\Users\Lenovo\Desktop\btl-git\qltv - Copy\GUI\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\Lenovo\Desktop\btl-git\qltv - Copy\GUI\bin\Debug\Microsoft.Extensions.Logging.xml
+C:\Users\Lenovo\Desktop\btl-git\qltv - Copy\GUI\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+C:\Users\Lenovo\Desktop\btl-git\qltv - Copy\GUI\bin\Debug\Microsoft.Extensions.Options.xml
+C:\Users\Lenovo\Desktop\btl-git\qltv - Copy\GUI\bin\Debug\Microsoft.Extensions.Primitives.xml
+C:\Users\Lenovo\Desktop\btl-git\qltv - Copy\GUI\bin\Debug\System.Buffers.xml
+C:\Users\Lenovo\Desktop\btl-git\qltv - Copy\GUI\bin\Debug\System.Collections.Immutable.xml
+C:\Users\Lenovo\Desktop\btl-git\qltv - Copy\GUI\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Users\Lenovo\Desktop\btl-git\qltv - Copy\GUI\bin\Debug\System.Memory.xml
+C:\Users\Lenovo\Desktop\btl-git\qltv - Copy\GUI\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\Lenovo\Desktop\btl-git\qltv - Copy\GUI\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Lenovo\Desktop\btl-git\qltv - Copy\GUI\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\Lenovo\Desktop\btl-git\qltv - Copy\GUI\bin\Debug\DAL.pdb
+C:\Users\Lenovo\Desktop\btl-git\qltv - Copy\GUI\bin\Debug\DAL.dll.config
+C:\Users\Lenovo\Desktop\btl-git\qltv - Copy\GUI\obj\Debug\GUI.csproj.Up2Date
+C:\Users\Lenovo\Desktop\btl-git\qltv - Copy\GUI\obj\Debug\GUI.FormBaoCaoThongKe.resources
+C:\Users\DELL\Documents\Zalo Received Files\qltv - Copy\qltv - Copy\GUI\bin\Debug\GUI.exe.config
+C:\Users\DELL\Documents\Zalo Received Files\qltv - Copy\qltv - Copy\GUI\bin\Debug\GUI.exe
+C:\Users\DELL\Documents\Zalo Received Files\qltv - Copy\qltv - Copy\GUI\bin\Debug\GUI.pdb
+C:\Users\DELL\Documents\Zalo Received Files\qltv - Copy\qltv - Copy\GUI\bin\Debug\BUS.dll
+C:\Users\DELL\Documents\Zalo Received Files\qltv - Copy\qltv - Copy\GUI\bin\Debug\DTO.dll
+C:\Users\DELL\Documents\Zalo Received Files\qltv - Copy\qltv - Copy\GUI\bin\Debug\EntityFramework.dll
+C:\Users\DELL\Documents\Zalo Received Files\qltv - Copy\qltv - Copy\GUI\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\DELL\Documents\Zalo Received Files\qltv - Copy\qltv - Copy\GUI\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\DELL\Documents\Zalo Received Files\qltv - Copy\qltv - Copy\GUI\bin\Debug\Microsoft.Bcl.HashCode.dll
+C:\Users\DELL\Documents\Zalo Received Files\qltv - Copy\qltv - Copy\GUI\bin\Debug\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\DELL\Documents\Zalo Received Files\qltv - Copy\qltv - Copy\GUI\bin\Debug\Microsoft.EntityFrameworkCore.dll
+C:\Users\DELL\Documents\Zalo Received Files\qltv - Copy\qltv - Copy\GUI\bin\Debug\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\DELL\Documents\Zalo Received Files\qltv - Copy\qltv - Copy\GUI\bin\Debug\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\DELL\Documents\Zalo Received Files\qltv - Copy\qltv - Copy\GUI\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\DELL\Documents\Zalo Received Files\qltv - Copy\qltv - Copy\GUI\bin\Debug\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\DELL\Documents\Zalo Received Files\qltv - Copy\qltv - Copy\GUI\bin\Debug\Microsoft.Extensions.Configuration.dll
+C:\Users\DELL\Documents\Zalo Received Files\qltv - Copy\qltv - Copy\GUI\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\DELL\Documents\Zalo Received Files\qltv - Copy\qltv - Copy\GUI\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\DELL\Documents\Zalo Received Files\qltv - Copy\qltv - Copy\GUI\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\DELL\Documents\Zalo Received Files\qltv - Copy\qltv - Copy\GUI\bin\Debug\Microsoft.Extensions.Logging.dll
+C:\Users\DELL\Documents\Zalo Received Files\qltv - Copy\qltv - Copy\GUI\bin\Debug\Microsoft.Extensions.Options.dll
+C:\Users\DELL\Documents\Zalo Received Files\qltv - Copy\qltv - Copy\GUI\bin\Debug\Microsoft.Extensions.Primitives.dll
+C:\Users\DELL\Documents\Zalo Received Files\qltv - Copy\qltv - Copy\GUI\bin\Debug\System.Buffers.dll
+C:\Users\DELL\Documents\Zalo Received Files\qltv - Copy\qltv - Copy\GUI\bin\Debug\System.Collections.Immutable.dll
+C:\Users\DELL\Documents\Zalo Received Files\qltv - Copy\qltv - Copy\GUI\bin\Debug\System.ComponentModel.Annotations.dll
+C:\Users\DELL\Documents\Zalo Received Files\qltv - Copy\qltv - Copy\GUI\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\Users\DELL\Documents\Zalo Received Files\qltv - Copy\qltv - Copy\GUI\bin\Debug\System.Memory.dll
+C:\Users\DELL\Documents\Zalo Received Files\qltv - Copy\qltv - Copy\GUI\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\DELL\Documents\Zalo Received Files\qltv - Copy\qltv - Copy\GUI\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\DELL\Documents\Zalo Received Files\qltv - Copy\qltv - Copy\GUI\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\DELL\Documents\Zalo Received Files\qltv - Copy\qltv - Copy\GUI\bin\Debug\DAL.dll
+C:\Users\DELL\Documents\Zalo Received Files\qltv - Copy\qltv - Copy\GUI\bin\Debug\BUS.pdb
+C:\Users\DELL\Documents\Zalo Received Files\qltv - Copy\qltv - Copy\GUI\bin\Debug\BUS.dll.config
+C:\Users\DELL\Documents\Zalo Received Files\qltv - Copy\qltv - Copy\GUI\bin\Debug\DTO.pdb
+C:\Users\DELL\Documents\Zalo Received Files\qltv - Copy\qltv - Copy\GUI\bin\Debug\DTO.dll.config
+C:\Users\DELL\Documents\Zalo Received Files\qltv - Copy\qltv - Copy\GUI\bin\Debug\EntityFramework.xml
+C:\Users\DELL\Documents\Zalo Received Files\qltv - Copy\qltv - Copy\GUI\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\DELL\Documents\Zalo Received Files\qltv - Copy\qltv - Copy\GUI\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\DELL\Documents\Zalo Received Files\qltv - Copy\qltv - Copy\GUI\bin\Debug\Microsoft.Bcl.HashCode.xml
+C:\Users\DELL\Documents\Zalo Received Files\qltv - Copy\qltv - Copy\GUI\bin\Debug\Microsoft.EntityFrameworkCore.xml
+C:\Users\DELL\Documents\Zalo Received Files\qltv - Copy\qltv - Copy\GUI\bin\Debug\Microsoft.EntityFrameworkCore.Abstractions.xml
+C:\Users\DELL\Documents\Zalo Received Files\qltv - Copy\qltv - Copy\GUI\bin\Debug\Microsoft.Extensions.Caching.Abstractions.xml
+C:\Users\DELL\Documents\Zalo Received Files\qltv - Copy\qltv - Copy\GUI\bin\Debug\Microsoft.Extensions.Caching.Memory.xml
+C:\Users\DELL\Documents\Zalo Received Files\qltv - Copy\qltv - Copy\GUI\bin\Debug\Microsoft.Extensions.Configuration.xml
+C:\Users\DELL\Documents\Zalo Received Files\qltv - Copy\qltv - Copy\GUI\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.xml
+C:\Users\DELL\Documents\Zalo Received Files\qltv - Copy\qltv - Copy\GUI\bin\Debug\Microsoft.Extensions.Configuration.Binder.xml
+C:\Users\DELL\Documents\Zalo Received Files\qltv - Copy\qltv - Copy\GUI\bin\Debug\Microsoft.Extensions.DependencyInjection.xml
+C:\Users\DELL\Documents\Zalo Received Files\qltv - Copy\qltv - Copy\GUI\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\DELL\Documents\Zalo Received Files\qltv - Copy\qltv - Copy\GUI\bin\Debug\Microsoft.Extensions.Logging.xml
+C:\Users\DELL\Documents\Zalo Received Files\qltv - Copy\qltv - Copy\GUI\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+C:\Users\DELL\Documents\Zalo Received Files\qltv - Copy\qltv - Copy\GUI\bin\Debug\Microsoft.Extensions.Options.xml
+C:\Users\DELL\Documents\Zalo Received Files\qltv - Copy\qltv - Copy\GUI\bin\Debug\Microsoft.Extensions.Primitives.xml
+C:\Users\DELL\Documents\Zalo Received Files\qltv - Copy\qltv - Copy\GUI\bin\Debug\System.Buffers.xml
+C:\Users\DELL\Documents\Zalo Received Files\qltv - Copy\qltv - Copy\GUI\bin\Debug\System.Collections.Immutable.xml
+C:\Users\DELL\Documents\Zalo Received Files\qltv - Copy\qltv - Copy\GUI\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Users\DELL\Documents\Zalo Received Files\qltv - Copy\qltv - Copy\GUI\bin\Debug\System.Memory.xml
+C:\Users\DELL\Documents\Zalo Received Files\qltv - Copy\qltv - Copy\GUI\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\DELL\Documents\Zalo Received Files\qltv - Copy\qltv - Copy\GUI\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\DELL\Documents\Zalo Received Files\qltv - Copy\qltv - Copy\GUI\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\DELL\Documents\Zalo Received Files\qltv - Copy\qltv - Copy\GUI\bin\Debug\DAL.pdb
+C:\Users\DELL\Documents\Zalo Received Files\qltv - Copy\qltv - Copy\GUI\bin\Debug\DAL.dll.config
+C:\Users\DELL\Documents\Zalo Received Files\qltv - Copy\qltv - Copy\GUI\obj\Debug\GUI.csproj.AssemblyReference.cache
+C:\Users\DELL\Documents\Zalo Received Files\qltv - Copy\qltv - Copy\GUI\obj\Debug\GUI.FormBaoCaoThongKe.resources
+C:\Users\DELL\Documents\Zalo Received Files\qltv - Copy\qltv - Copy\GUI\obj\Debug\GUI.formChiTietMuon.resources
+C:\Users\DELL\Documents\Zalo Received Files\qltv - Copy\qltv - Copy\GUI\obj\Debug\GUI.formMain.resources
+C:\Users\DELL\Documents\Zalo Received Files\qltv - Copy\qltv - Copy\GUI\obj\Debug\GUI.formLogin.resources
+C:\Users\DELL\Documents\Zalo Received Files\qltv - Copy\qltv - Copy\GUI\obj\Debug\GUI.formQLYDocGia.resources
+C:\Users\DELL\Documents\Zalo Received Files\qltv - Copy\qltv - Copy\GUI\obj\Debug\GUI.formQuyDinh.resources
+C:\Users\DELL\Documents\Zalo Received Files\qltv - Copy\qltv - Copy\GUI\obj\Debug\GUI.formTaoCTM.resources
+C:\Users\DELL\Documents\Zalo Received Files\qltv - Copy\qltv - Copy\GUI\obj\Debug\GUI.formTaoPhieu.resources
+C:\Users\DELL\Documents\Zalo Received Files\qltv - Copy\qltv - Copy\GUI\obj\Debug\GUI.formTaoPhieu2.resources
+C:\Users\DELL\Documents\Zalo Received Files\qltv - Copy\qltv - Copy\GUI\obj\Debug\GUI.formTaoTK.resources
+C:\Users\DELL\Documents\Zalo Received Files\qltv - Copy\qltv - Copy\GUI\obj\Debug\GUI.formTroGiup.resources
+C:\Users\DELL\Documents\Zalo Received Files\qltv - Copy\qltv - Copy\GUI\obj\Debug\GUI.fromQLYThuThu.resources
+C:\Users\DELL\Documents\Zalo Received Files\qltv - Copy\qltv - Copy\GUI\obj\Debug\GUI.Properties.Resources.resources
+C:\Users\DELL\Documents\Zalo Received Files\qltv - Copy\qltv - Copy\GUI\obj\Debug\GUI.csproj.GenerateResource.cache
+C:\Users\DELL\Documents\Zalo Received Files\qltv - Copy\qltv - Copy\GUI\obj\Debug\GUI.csproj.CoreCompileInputs.cache
+C:\Users\DELL\Documents\Zalo Received Files\qltv - Copy\qltv - Copy\GUI\obj\Debug\GUI.csproj.Up2Date
+C:\Users\DELL\Documents\Zalo Received Files\qltv - Copy\qltv - Copy\GUI\obj\Debug\GUI.exe
+C:\Users\DELL\Documents\Zalo Received Files\qltv - Copy\qltv - Copy\GUI\obj\Debug\GUI.pdb
+C:\Users\DELL\Documents\Zalo Received Files\qltv - Copy\qltv - Copy\GUI\bin\Debug\ClosedXML.dll
+C:\Users\DELL\Documents\Zalo Received Files\qltv - Copy\qltv - Copy\GUI\bin\Debug\ClosedXML.Parser.dll
+C:\Users\DELL\Documents\Zalo Received Files\qltv - Copy\qltv - Copy\GUI\bin\Debug\DocumentFormat.OpenXml.dll
+C:\Users\DELL\Documents\Zalo Received Files\qltv - Copy\qltv - Copy\GUI\bin\Debug\DocumentFormat.OpenXml.Framework.dll
+C:\Users\DELL\Documents\Zalo Received Files\qltv - Copy\qltv - Copy\GUI\bin\Debug\ExcelNumberFormat.dll
+C:\Users\DELL\Documents\Zalo Received Files\qltv - Copy\qltv - Copy\GUI\bin\Debug\RBush.dll
+C:\Users\DELL\Documents\Zalo Received Files\qltv - Copy\qltv - Copy\GUI\bin\Debug\SixLabors.Fonts.dll
+C:\Users\DELL\Documents\Zalo Received Files\qltv - Copy\qltv - Copy\GUI\bin\Debug\System.IO.Packaging.dll
+C:\Users\DELL\Documents\Zalo Received Files\qltv - Copy\qltv - Copy\GUI\bin\Debug\ClosedXML.pdb
+C:\Users\DELL\Documents\Zalo Received Files\qltv - Copy\qltv - Copy\GUI\bin\Debug\ClosedXML.xml
+C:\Users\DELL\Documents\Zalo Received Files\qltv - Copy\qltv - Copy\GUI\bin\Debug\ClosedXML.Parser.xml
+C:\Users\DELL\Documents\Zalo Received Files\qltv - Copy\qltv - Copy\GUI\bin\Debug\DocumentFormat.OpenXml.xml
+C:\Users\DELL\Documents\Zalo Received Files\qltv - Copy\qltv - Copy\GUI\bin\Debug\DocumentFormat.OpenXml.Framework.xml
+C:\Users\DELL\Documents\Zalo Received Files\qltv - Copy\qltv - Copy\GUI\bin\Debug\ExcelNumberFormat.xml
+C:\Users\DELL\Documents\Zalo Received Files\qltv - Copy\qltv - Copy\GUI\bin\Debug\RBush.xml
+C:\Users\DELL\Documents\Zalo Received Files\qltv - Copy\qltv - Copy\GUI\bin\Debug\SixLabors.Fonts.xml
+C:\Users\DELL\Documents\Zalo Received Files\qltv - Copy\qltv - Copy\GUI\bin\Debug\System.IO.Packaging.xml
+D:\BTL-qltv\GUI\bin\Debug\ClosedXML.dll
+D:\BTL-qltv\GUI\bin\Debug\ClosedXML.Parser.dll
+D:\BTL-qltv\GUI\bin\Debug\DocumentFormat.OpenXml.dll
+D:\BTL-qltv\GUI\bin\Debug\DocumentFormat.OpenXml.Framework.dll
+D:\BTL-qltv\GUI\bin\Debug\ExcelNumberFormat.dll
+D:\BTL-qltv\GUI\bin\Debug\RBush.dll
+D:\BTL-qltv\GUI\bin\Debug\SixLabors.Fonts.dll
+D:\BTL-qltv\GUI\bin\Debug\System.IO.Packaging.dll
+D:\BTL-qltv\GUI\bin\Debug\ClosedXML.pdb
+D:\BTL-qltv\GUI\bin\Debug\ClosedXML.xml
+D:\BTL-qltv\GUI\bin\Debug\ClosedXML.Parser.xml
+D:\BTL-qltv\GUI\bin\Debug\DocumentFormat.OpenXml.xml
+D:\BTL-qltv\GUI\bin\Debug\DocumentFormat.OpenXml.Framework.xml
+D:\BTL-qltv\GUI\bin\Debug\ExcelNumberFormat.xml
+D:\BTL-qltv\GUI\bin\Debug\RBush.xml
+D:\BTL-qltv\GUI\bin\Debug\SixLabors.Fonts.xml
+D:\BTL-qltv\GUI\bin\Debug\System.IO.Packaging.xml
+D:\BTL-qltv\GUI\obj\Debug\GUI.FormBaoCaoThongKe.resources

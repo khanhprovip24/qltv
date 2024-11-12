@@ -70,3 +70,57 @@ D:\BTL-qltv\BUS\obj\Debug\BUS.csproj.CoreCompileInputs.cache
 D:\BTL-qltv\BUS\obj\Debug\BUS.csproj.Up2Date
 D:\BTL-qltv\BUS\obj\Debug\BUS.dll
 D:\BTL-qltv\BUS\obj\Debug\BUS.pdb
+C:\Users\Lenovo\Desktop\btl-git\qltv\BUS\bin\Debug\BUS.dll.config
+C:\Users\Lenovo\Desktop\btl-git\qltv\BUS\bin\Debug\BUS.dll
+C:\Users\Lenovo\Desktop\btl-git\qltv\BUS\bin\Debug\BUS.pdb
+C:\Users\Lenovo\Desktop\btl-git\qltv\BUS\bin\Debug\DAL.dll
+C:\Users\Lenovo\Desktop\btl-git\qltv\BUS\bin\Debug\DTO.dll
+C:\Users\Lenovo\Desktop\btl-git\qltv\BUS\bin\Debug\EntityFramework.dll
+C:\Users\Lenovo\Desktop\btl-git\qltv\BUS\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Lenovo\Desktop\btl-git\qltv\BUS\bin\Debug\DAL.pdb
+C:\Users\Lenovo\Desktop\btl-git\qltv\BUS\bin\Debug\DAL.dll.config
+C:\Users\Lenovo\Desktop\btl-git\qltv\BUS\bin\Debug\DTO.pdb
+C:\Users\Lenovo\Desktop\btl-git\qltv\BUS\bin\Debug\DTO.dll.config
+C:\Users\Lenovo\Desktop\btl-git\qltv\BUS\bin\Debug\EntityFramework.xml
+C:\Users\Lenovo\Desktop\btl-git\qltv\BUS\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Lenovo\Desktop\btl-git\qltv\BUS\obj\Debug\BUS.csproj.AssemblyReference.cache
+C:\Users\Lenovo\Desktop\btl-git\qltv\BUS\obj\Debug\BUS.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\Desktop\btl-git\qltv\BUS\obj\Debug\BUS.csproj.Up2Date
+C:\Users\Lenovo\Desktop\btl-git\qltv\BUS\obj\Debug\BUS.dll
+C:\Users\Lenovo\Desktop\btl-git\qltv\BUS\obj\Debug\BUS.pdb
+C:\Users\Lenovo\Desktop\btl-git\qltv - Copy\BUS\bin\Debug\BUS.dll.config
+C:\Users\Lenovo\Desktop\btl-git\qltv - Copy\BUS\bin\Debug\BUS.dll
+C:\Users\Lenovo\Desktop\btl-git\qltv - Copy\BUS\bin\Debug\BUS.pdb
+C:\Users\Lenovo\Desktop\btl-git\qltv - Copy\BUS\bin\Debug\DAL.dll
+C:\Users\Lenovo\Desktop\btl-git\qltv - Copy\BUS\bin\Debug\DTO.dll
+C:\Users\Lenovo\Desktop\btl-git\qltv - Copy\BUS\bin\Debug\EntityFramework.dll
+C:\Users\Lenovo\Desktop\btl-git\qltv - Copy\BUS\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Lenovo\Desktop\btl-git\qltv - Copy\BUS\bin\Debug\DAL.pdb
+C:\Users\Lenovo\Desktop\btl-git\qltv - Copy\BUS\bin\Debug\DAL.dll.config
+C:\Users\Lenovo\Desktop\btl-git\qltv - Copy\BUS\bin\Debug\DTO.pdb
+C:\Users\Lenovo\Desktop\btl-git\qltv - Copy\BUS\bin\Debug\DTO.dll.config
+C:\Users\Lenovo\Desktop\btl-git\qltv - Copy\BUS\bin\Debug\EntityFramework.xml
+C:\Users\Lenovo\Desktop\btl-git\qltv - Copy\BUS\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Lenovo\Desktop\btl-git\qltv - Copy\BUS\obj\Debug\BUS.csproj.AssemblyReference.cache
+C:\Users\Lenovo\Desktop\btl-git\qltv - Copy\BUS\obj\Debug\BUS.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\Desktop\btl-git\qltv - Copy\BUS\obj\Debug\BUS.csproj.Up2Date
+C:\Users\Lenovo\Desktop\btl-git\qltv - Copy\BUS\obj\Debug\BUS.dll
+C:\Users\Lenovo\Desktop\btl-git\qltv - Copy\BUS\obj\Debug\BUS.pdb
+C:\Users\DELL\Documents\Zalo Received Files\qltv - Copy\qltv - Copy\BUS\bin\Debug\BUS.dll.config
+C:\Users\DELL\Documents\Zalo Received Files\qltv - Copy\qltv - Copy\BUS\bin\Debug\BUS.dll
+C:\Users\DELL\Documents\Zalo Received Files\qltv - Copy\qltv - Copy\BUS\bin\Debug\BUS.pdb
+C:\Users\DELL\Documents\Zalo Received Files\qltv - Copy\qltv - Copy\BUS\bin\Debug\DAL.dll
+C:\Users\DELL\Documents\Zalo Received Files\qltv - Copy\qltv - Copy\BUS\bin\Debug\DTO.dll
+C:\Users\DELL\Documents\Zalo Received Files\qltv - Copy\qltv - Copy\BUS\bin\Debug\EntityFramework.dll
+C:\Users\DELL\Documents\Zalo Received Files\qltv - Copy\qltv - Copy\BUS\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\DELL\Documents\Zalo Received Files\qltv - Copy\qltv - Copy\BUS\bin\Debug\DAL.pdb
+C:\Users\DELL\Documents\Zalo Received Files\qltv - Copy\qltv - Copy\BUS\bin\Debug\DAL.dll.config
+C:\Users\DELL\Documents\Zalo Received Files\qltv - Copy\qltv - Copy\BUS\bin\Debug\DTO.pdb
+C:\Users\DELL\Documents\Zalo Received Files\qltv - Copy\qltv - Copy\BUS\bin\Debug\DTO.dll.config
+C:\Users\DELL\Documents\Zalo Received Files\qltv - Copy\qltv - Copy\BUS\bin\Debug\EntityFramework.xml
+C:\Users\DELL\Documents\Zalo Received Files\qltv - Copy\qltv - Copy\BUS\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\DELL\Documents\Zalo Received Files\qltv - Copy\qltv - Copy\BUS\obj\Debug\BUS.csproj.AssemblyReference.cache
+C:\Users\DELL\Documents\Zalo Received Files\qltv - Copy\qltv - Copy\BUS\obj\Debug\BUS.csproj.CoreCompileInputs.cache
+C:\Users\DELL\Documents\Zalo Received Files\qltv - Copy\qltv - Copy\BUS\obj\Debug\BUS.csproj.Up2Date
+C:\Users\DELL\Documents\Zalo Received Files\qltv - Copy\qltv - Copy\BUS\obj\Debug\BUS.dll
+C:\Users\DELL\Documents\Zalo Received Files\qltv - Copy\qltv - Copy\BUS\obj\Debug\BUS.pdb

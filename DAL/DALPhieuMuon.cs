@@ -64,8 +64,10 @@ namespace DAL
         }
         public int GetNextId()
         {
-            return QUANLYTHUVIENEntities2.Instance.PHIEUMUONs.Max(x => x.MAPM) + 1;
+            int? maxId = QUANLYTHUVIENEntities2.Instance.PHIEUMUONs.Max(x => (int?)x.MAPM);
+            return (maxId ?? 0) + 1;
         }
+
         public List<PHIEUMUON> GetPhieuMuonByMaDocGia(int madg)
         {
             QUANLYTHUVIENEntities2 db = new QUANLYTHUVIENEntities2();
@@ -124,12 +126,12 @@ namespace DAL
         }
         public List<int> GetMaPMByStatus(string status)
         {
-            using (var db = new QUANLYTHUVIENEntities2())
+            using (var context = new QUANLYTHUVIENEntities2())
             {
-                return db.PHIEUMUONs
-                         .Where(pm => pm.TINHTRANG == status)
-                         .Select(pm => pm.MAPM)
-                         .ToList();
+                return context.PHIEUMUONs
+                    .Where(pm => pm.TINHTRANG == status)
+                    .Select(pm => pm.MAPM)
+                    .ToList();
             }
         }
 

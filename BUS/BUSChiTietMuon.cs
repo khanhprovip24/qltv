@@ -1,4 +1,5 @@
-﻿using DTO;
+﻿using DAL;
+using DTO;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -28,6 +29,11 @@ namespace BUS
         public void AddCTM(CHITIETMUON ctm)
         {
             DAL.DALChiTietMuon.Instance.AddCTM(ctm);
+        }
+        //new
+        public void EditCTM_2(CHITIETMUON currentCTM, CHITIETMUON newCTM)
+        {
+            DALChiTietMuon.Instance.EditCTM_2(currentCTM, newCTM);
         }
         public void EditCTM(CHITIETMUON ctm)
         {

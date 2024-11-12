@@ -10,6 +10,7 @@ namespace BUS
 {
     public class BUSPhieuMuon
     {
+        private DALPhieuMuon dalPhieuMuon = new DALPhieuMuon();
         private static BUSPhieuMuon instance;
         public static BUSPhieuMuon Instance
         {
@@ -76,7 +77,7 @@ namespace BUS
         }
         public List<int> GetMaPMByStatus(string status)
         {
-            return DALPhieuMuon.Instance.GetMaPMByStatus(status);
+            return dalPhieuMuon.GetMaPMByStatus(status);
         }
     }
 }

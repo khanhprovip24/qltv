@@ -3,43 +3,47 @@
   "WorkspaceRootPath": "D:\\BTL-qltv\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F690A1AC-C2F4-47A4-B0C6-37F84E00AFE7}|DAL\\DAL.csproj|d:\\btl-qltv\\dal\\dalphieumuon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F690A1AC-C2F4-47A4-B0C6-37F84E00AFE7}|DAL\\DAL.csproj|solutionrelative:dal\\dalphieumuon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4139EBE7-CE66-4D44-AB22-EE326083E5FA}|GUI\\GUI.csproj|D:\\BTL-qltv\\gui\\formbaocaothongke.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4139EBE7-CE66-4D44-AB22-EE326083E5FA}|GUI\\GUI.csproj|solutionrelative:gui\\formbaocaothongke.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4139EBE7-CE66-4D44-AB22-EE326083E5FA}|GUI\\GUI.csproj|d:\\btl-qltv\\gui\\formmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4139EBE7-CE66-4D44-AB22-EE326083E5FA}|GUI\\GUI.csproj|D:\\BTL-qltv\\gui\\formmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4139EBE7-CE66-4D44-AB22-EE326083E5FA}|GUI\\GUI.csproj|solutionrelative:gui\\formmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4139EBE7-CE66-4D44-AB22-EE326083E5FA}|GUI\\GUI.csproj|d:\\btl-qltv\\gui\\formmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{4139EBE7-CE66-4D44-AB22-EE326083E5FA}|GUI\\GUI.csproj|D:\\BTL-qltv\\gui\\formmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{4139EBE7-CE66-4D44-AB22-EE326083E5FA}|GUI\\GUI.csproj|solutionrelative:gui\\formmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4139EBE7-CE66-4D44-AB22-EE326083E5FA}|GUI\\GUI.csproj|d:\\btl-qltv\\gui\\formtaoctm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4139EBE7-CE66-4D44-AB22-EE326083E5FA}|GUI\\GUI.csproj|D:\\BTL-qltv\\gui\\formbaocaothongke.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4139EBE7-CE66-4D44-AB22-EE326083E5FA}|GUI\\GUI.csproj|solutionrelative:gui\\formbaocaothongke.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4139EBE7-CE66-4D44-AB22-EE326083E5FA}|GUI\\GUI.csproj|D:\\BTL-qltv\\gui\\formtaoctm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4139EBE7-CE66-4D44-AB22-EE326083E5FA}|GUI\\GUI.csproj|solutionrelative:gui\\formtaoctm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{93A7CEB1-BD84-4C30-B0BF-D6AE55A214EF}|BUS\\BUS.csproj|d:\\btl-qltv\\bus\\busphieumuon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{93A7CEB1-BD84-4C30-B0BF-D6AE55A214EF}|BUS\\BUS.csproj|D:\\BTL-qltv\\bus\\buschitietmuon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{93A7CEB1-BD84-4C30-B0BF-D6AE55A214EF}|BUS\\BUS.csproj|solutionrelative:bus\\buschitietmuon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93A7CEB1-BD84-4C30-B0BF-D6AE55A214EF}|BUS\\BUS.csproj|D:\\BTL-qltv\\bus\\busphieumuon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{93A7CEB1-BD84-4C30-B0BF-D6AE55A214EF}|BUS\\BUS.csproj|solutionrelative:bus\\busphieumuon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4139EBE7-CE66-4D44-AB22-EE326083E5FA}|GUI\\GUI.csproj|d:\\btl-qltv\\gui\\formtaoctm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{4139EBE7-CE66-4D44-AB22-EE326083E5FA}|GUI\\GUI.csproj|D:\\BTL-qltv\\gui\\formtaoctm.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4139EBE7-CE66-4D44-AB22-EE326083E5FA}|GUI\\GUI.csproj|solutionrelative:gui\\formtaoctm.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4139EBE7-CE66-4D44-AB22-EE326083E5FA}|GUI\\GUI.csproj|D:\\BTL-qltv\\gui\\formtaoctm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{4139EBE7-CE66-4D44-AB22-EE326083E5FA}|GUI\\GUI.csproj|solutionrelative:gui\\formtaoctm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4139EBE7-CE66-4D44-AB22-EE326083E5FA}|GUI\\GUI.csproj|d:\\btl-qltv\\gui\\formtaophieu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4139EBE7-CE66-4D44-AB22-EE326083E5FA}|GUI\\GUI.csproj|solutionrelative:gui\\formtaophieu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4139EBE7-CE66-4D44-AB22-EE326083E5FA}|GUI\\GUI.csproj|D:\\BTL-qltv\\gui\\formchitietmuon.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4139EBE7-CE66-4D44-AB22-EE326083E5FA}|GUI\\GUI.csproj|solutionrelative:gui\\formchitietmuon.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4139EBE7-CE66-4D44-AB22-EE326083E5FA}|GUI\\GUI.csproj|d:\\btl-qltv\\gui\\formtaophieu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{4139EBE7-CE66-4D44-AB22-EE326083E5FA}|GUI\\GUI.csproj|solutionrelative:gui\\formtaophieu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4139EBE7-CE66-4D44-AB22-EE326083E5FA}|GUI\\GUI.csproj|d:\\btl-qltv\\gui\\formchitietmuon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{4139EBE7-CE66-4D44-AB22-EE326083E5FA}|GUI\\GUI.csproj|solutionrelative:gui\\formchitietmuon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4139EBE7-CE66-4D44-AB22-EE326083E5FA}|GUI\\GUI.csproj|d:\\btl-qltv\\gui\\formchitietmuon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4139EBE7-CE66-4D44-AB22-EE326083E5FA}|GUI\\GUI.csproj|D:\\BTL-qltv\\gui\\formchitietmuon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4139EBE7-CE66-4D44-AB22-EE326083E5FA}|GUI\\GUI.csproj|solutionrelative:gui\\formchitietmuon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -76,9 +80,9 @@
               "RelativeDocumentMoniker": "GUI\\formMain.cs",
               "ToolTip": "D:\\BTL-qltv\\GUI\\formMain.cs",
               "RelativeToolTip": "GUI\\formMain.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAQwB0AAAAiAAAAAAAAAA==",
+              "ViewState": "AgIAAJkAAAAAAAAAAAAUwKQAAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-11T18:36:29.504Z",
+              "WhenOpened": "2024-11-12T05:46:17.717Z",
               "EditorCaption": ""
             },
             {
@@ -90,109 +94,115 @@
               "ToolTip": "D:\\BTL-qltv\\GUI\\formMain.cs [Design]",
               "RelativeToolTip": "GUI\\formMain.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-11T18:36:27.9Z",
+              "WhenOpened": "2024-11-12T05:46:14.826Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "DALPhieuMuon.cs",
-              "DocumentMoniker": "D:\\BTL-qltv\\DAL\\DALPhieuMuon.cs",
-              "RelativeDocumentMoniker": "DAL\\DALPhieuMuon.cs",
-              "ToolTip": "D:\\BTL-qltv\\DAL\\DALPhieuMuon.cs*",
-              "RelativeToolTip": "DAL\\DALPhieuMuon.cs*",
-              "ViewState": "AgIAAFUAAAAAAAAAAAAUwGUAAABEAAAAAAAAAA==",
+              "Title": "FormBaoCaoThongKe.cs",
+              "DocumentMoniker": "D:\\BTL-qltv\\GUI\\FormBaoCaoThongKe.cs",
+              "RelativeDocumentMoniker": "GUI\\FormBaoCaoThongKe.cs",
+              "ToolTip": "D:\\BTL-qltv\\GUI\\FormBaoCaoThongKe.cs*",
+              "RelativeToolTip": "GUI\\FormBaoCaoThongKe.cs*",
+              "ViewState": "AgIAAFUAAAAAAAAAAAAAAIYAAABJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-11T18:15:21.751Z",
+              "WhenOpened": "2024-11-12T05:37:50.287Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "formTaoPhieu.cs",
-              "DocumentMoniker": "D:\\BTL-qltv\\GUI\\formTaoPhieu.cs",
-              "RelativeDocumentMoniker": "GUI\\formTaoPhieu.cs",
-              "ToolTip": "D:\\BTL-qltv\\GUI\\formTaoPhieu.cs",
-              "RelativeToolTip": "GUI\\formTaoPhieu.cs",
-              "ViewState": "AgIAAN0AAAAAAAAAAAAUwOQAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-11T17:35:08.073Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "formTaoCTM.cs [Design]",
-              "DocumentMoniker": "D:\\BTL-qltv\\GUI\\formTaoCTM.cs",
-              "RelativeDocumentMoniker": "GUI\\formTaoCTM.cs",
-              "ToolTip": "D:\\BTL-qltv\\GUI\\formTaoCTM.cs [Design]",
-              "RelativeToolTip": "GUI\\formTaoCTM.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-11T17:26:53.105Z",
-              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "formTaoCTM.cs",
-              "DocumentMoniker": "D:\\BTL-qltv\\GUI\\formTaoCTM.cs",
-              "RelativeDocumentMoniker": "GUI\\formTaoCTM.cs",
-              "ToolTip": "D:\\BTL-qltv\\GUI\\formTaoCTM.cs",
-              "RelativeToolTip": "GUI\\formTaoCTM.cs",
-              "ViewState": "AgIAAC0AAAAAAAAAAAAUwDwAAAAAAAAAAAAAAA==",
+              "Title": "FormBaoCaoThongKe.cs [Design]",
+              "DocumentMoniker": "D:\\BTL-qltv\\GUI\\FormBaoCaoThongKe.cs",
+              "RelativeDocumentMoniker": "GUI\\FormBaoCaoThongKe.cs",
+              "ToolTip": "D:\\BTL-qltv\\GUI\\FormBaoCaoThongKe.cs [Design]*",
+              "RelativeToolTip": "GUI\\FormBaoCaoThongKe.cs [Design]*",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-11T17:26:54.84Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-12T04:27:57.847Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "BUSPhieuMuon.cs",
               "DocumentMoniker": "D:\\BTL-qltv\\BUS\\BUSPhieuMuon.cs",
               "RelativeDocumentMoniker": "BUS\\BUSPhieuMuon.cs",
               "ToolTip": "D:\\BTL-qltv\\BUS\\BUSPhieuMuon.cs",
               "RelativeToolTip": "BUS\\BUSPhieuMuon.cs",
-              "ViewState": "AgIAAEMAAAAAAAAAAAAkwE4AAABBAAAAAAAAAA==",
+              "ViewState": "AgIAAFAAAAAAAAAAAAAIwFMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-11T18:22:25.423Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-12T04:13:57.915Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "BUSChiTietMuon.cs",
+              "DocumentMoniker": "D:\\BTL-qltv\\BUS\\BUSChiTietMuon.cs",
+              "RelativeDocumentMoniker": "BUS\\BUSChiTietMuon.cs",
+              "ToolTip": "D:\\BTL-qltv\\BUS\\BUSChiTietMuon.cs",
+              "RelativeToolTip": "BUS\\BUSChiTietMuon.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T04:13:37.386Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "formTaoCTM.cs",
+              "DocumentMoniker": "D:\\BTL-qltv\\GUI\\formTaoCTM.cs",
+              "RelativeDocumentMoniker": "GUI\\formTaoCTM.cs",
+              "ToolTip": "D:\\BTL-qltv\\GUI\\formTaoCTM.cs",
+              "RelativeToolTip": "GUI\\formTaoCTM.cs",
+              "ViewState": "AgIAAKQAAAAAAAAAAADwv8EAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T04:12:17.643Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "formTaoPhieu.cs [Design]",
-              "DocumentMoniker": "D:\\BTL-qltv\\GUI\\formTaoPhieu.cs",
-              "RelativeDocumentMoniker": "GUI\\formTaoPhieu.cs",
-              "ToolTip": "D:\\BTL-qltv\\GUI\\formTaoPhieu.cs [Design]",
-              "RelativeToolTip": "GUI\\formTaoPhieu.cs [Design]",
+              "Title": "formTaoCTM.Designer.cs",
+              "DocumentMoniker": "D:\\BTL-qltv\\GUI\\formTaoCTM.Designer.cs",
+              "RelativeDocumentMoniker": "GUI\\formTaoCTM.Designer.cs",
+              "ToolTip": "D:\\BTL-qltv\\GUI\\formTaoCTM.Designer.cs",
+              "RelativeToolTip": "GUI\\formTaoCTM.Designer.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAIwAcBAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-11T17:30:19.73Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-11-12T04:12:13.758Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "formChiTietMuon.cs [Design]",
-              "DocumentMoniker": "D:\\BTL-qltv\\GUI\\formChiTietMuon.cs",
-              "RelativeDocumentMoniker": "GUI\\formChiTietMuon.cs",
-              "ToolTip": "D:\\BTL-qltv\\GUI\\formChiTietMuon.cs [Design]",
-              "RelativeToolTip": "GUI\\formChiTietMuon.cs [Design]",
+              "Title": "formTaoCTM.cs [Design]",
+              "DocumentMoniker": "D:\\BTL-qltv\\GUI\\formTaoCTM.cs",
+              "RelativeDocumentMoniker": "GUI\\formTaoCTM.cs",
+              "ToolTip": "C:\\Users\\DELL\\Documents\\Zalo Received Files\\qltv - Copy\\qltv - Copy\\GUI\\formTaoCTM.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-11T17:26:38.568Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-11-12T04:11:58.943Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "formChiTietMuon.cs",
               "DocumentMoniker": "D:\\BTL-qltv\\GUI\\formChiTietMuon.cs",
               "RelativeDocumentMoniker": "GUI\\formChiTietMuon.cs",
               "ToolTip": "D:\\BTL-qltv\\GUI\\formChiTietMuon.cs",
               "RelativeToolTip": "GUI\\formChiTietMuon.cs",
-              "ViewState": "AgIAACgAAAAAAAAAAAAAAFEAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAALQBAAAAAAAAAAAIwNIBAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-11T17:26:43.573Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-12T04:10:51.428Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "formChiTietMuon.Designer.cs",
+              "DocumentMoniker": "D:\\BTL-qltv\\GUI\\formChiTietMuon.Designer.cs",
+              "RelativeDocumentMoniker": "GUI\\formChiTietMuon.Designer.cs",
+              "ToolTip": "D:\\BTL-qltv\\GUI\\formChiTietMuon.Designer.cs",
+              "RelativeToolTip": "GUI\\formChiTietMuon.Designer.cs",
+              "ViewState": "AgIAALABAAAAAAAAAAAUwM8BAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T04:10:46.1Z"
             }
           ]
         }

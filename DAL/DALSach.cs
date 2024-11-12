@@ -8,15 +8,14 @@ namespace DAL
 {
     public class DALSach
     {
-        private static DALSach instance;
-
+        private static DALSach _instance;
         public static DALSach Instance
         {
             get
             {
-                if (instance == null)
-                    instance = new DALSach();
-                return instance;
+                if (_instance == null)
+                    _instance = new DALSach();
+                return _instance;
             }
         }
 
@@ -155,6 +154,17 @@ namespace DAL
             using (var context = new QUANLYTHUVIENEntities2())
             {
                 return context.SACHes.Where(s => s.MASACH == id).Select(s => s.SOLUONG).FirstOrDefault().GetValueOrDefault();
+            }
+        }
+        public string GetCategoryNameByID(int maTL)
+        {
+            string maTLString = "TL" + maTL.ToString();
+            using (var context = new QUANLYTHUVIENEntities2())
+            {
+                return context.THELOAIs
+                    .Where(t => t.MATL == maTLString)
+                    .Select(t => t.TENTL)
+                    .FirstOrDefault();
             }
         }
 

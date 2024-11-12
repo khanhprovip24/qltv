@@ -43,14 +43,41 @@ namespace DAL
             }
         }
 
+        //new
+        public void EditCTM_2(CHITIETMUON currentCTM, CHITIETMUON newCTM)
+        {
+            var ctmEdit = QUANLYTHUVIENEntities2.Instance.CHITIETMUONs.Find(currentCTM.MAPM, currentCTM.MASACH);
+            if (ctmEdit != null)
+            {
+                // Thêm bản ghi mới với các giá trị cập nhật
+                QUANLYTHUVIENEntities2.Instance.CHITIETMUONs.Add(newCTM);
+                QUANLYTHUVIENEntities2.Instance.SaveChanges();
 
+                // Xóa bản ghi cũ
+                QUANLYTHUVIENEntities2.Instance.CHITIETMUONs.Remove(ctmEdit);
+                QUANLYTHUVIENEntities2.Instance.SaveChanges();
+            }
+            else
+            {
+                // Xử lý trường hợp không tìm thấy bản ghi
+                throw new Exception($"Không tìm thấy chi tiết mượn với MAPM: {currentCTM.MAPM} và MASACH: {currentCTM.MASACH}");
+            }
+        }
 
-
+        
         public void EditCTM(CHITIETMUON ctm)
         {
             var ctmEdit = QUANLYTHUVIENEntities2.Instance.CHITIETMUONs.Find(ctm.MAPM, ctm.MASACH);
-            ctmEdit.SOLUONG = ctm.SOLUONG;
-            QUANLYTHUVIENEntities2.Instance.SaveChanges();
+            if (ctmEdit != null)
+            {
+                ctmEdit.SOLUONG = ctm.SOLUONG;
+                QUANLYTHUVIENEntities2.Instance.SaveChanges();
+            }
+            else
+            {
+                // Xử lý trường hợp không tìm thấy bản ghi
+                throw new Exception($"Không tìm thấy chi tiết mượn với MAPM: {ctm.MAPM} và MASACH: {ctm.MASACH}");
+            }
         }
         public void DeleteCTM(int mapm, int masach)
         {

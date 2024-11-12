@@ -79,7 +79,8 @@ namespace GUI
                     EMAIL = txtEmail.Text,
                     SDT = txtSDT.Text,
                     GIOITINH = comboBoxGT.Text,
-                    DIACHI = txtDiaChi.Text                   
+                    DIACHI = txtDiaChi.Text,
+                    MATK = userid
                 };
 
                 busDG.updateDG(docGia);

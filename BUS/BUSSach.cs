@@ -71,5 +71,10 @@ namespace BUS
         {
             return DALSach.Instance.GetSoLuongByID(maSach);
         }
+        public string GetCategoryNameByID(int maTL)
+        {
+            return DALSach.Instance.GetCategoryNameByID(maTL);
+        }
+
     }
 }

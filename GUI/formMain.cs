@@ -159,5 +159,16 @@ namespace GUI
             formChiTietMuon f =new formChiTietMuon();
             f.Show();
         }
+
+        private void thốngKêToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FormBaoCaoThongKe f = new FormBaoCaoThongKe();
+            f.Show();
+        }
+
+        private void báoCáoThốngKêToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
