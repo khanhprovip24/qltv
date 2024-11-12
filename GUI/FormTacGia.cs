@@ -40,7 +40,8 @@ namespace GUI
 
         private void btnThemTacGia_Click(object sender, EventArgs e)
         {
-            txtMaTacGia.Text = string.Empty;
+            string id = bll.nextMaTacGia().ToString();
+            txtMaTacGia.Text = id;
             txtTenTacGia.Text = string.Empty;
             txtMaTacGia.ReadOnly = true;// Khóa mã tác giả khi thêm mới
             txtTenTacGia.ReadOnly = false;
@@ -98,6 +99,7 @@ namespace GUI
                 };
                 bll.ThemTacGia(tacGia);
                 isAddingNew = false; // Đặt lại cờ trạng thái
+
                 LoadData();  // Tải lại dữ liệu sau khi thêm
             }
             else // Nếu ở chế độ chỉnh sửa

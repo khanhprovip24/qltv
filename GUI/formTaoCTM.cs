@@ -189,5 +189,10 @@ namespace GUI
             int maDG = buspm.GetMaDGByMaPhieu(int.Parse(cbbMaPM.Text));
             txtDocGia.Text = busDG.GetNameByID(maDG);
         }
+
+        private void dtpNgayMuon_ValueChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

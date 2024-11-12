@@ -49,7 +49,7 @@
             // txtTSS
             // 
             this.txtTSS.Location = new System.Drawing.Point(736, 331);
-            this.txtTSS.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtTSS.Margin = new System.Windows.Forms.Padding(4);
             this.txtTSS.Name = "txtTSS";
             this.txtTSS.Size = new System.Drawing.Size(249, 28);
             this.txtTSS.TabIndex = 40;
@@ -72,7 +72,7 @@
             "Trễ hạn",
             "Đang mượn"});
             this.cbbTT.Location = new System.Drawing.Point(242, 388);
-            this.cbbTT.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.cbbTT.Margin = new System.Windows.Forms.Padding(4);
             this.cbbTT.Name = "cbbTT";
             this.cbbTT.Size = new System.Drawing.Size(249, 30);
             this.cbbTT.TabIndex = 38;
@@ -89,9 +89,10 @@
             // 
             // cbbTenDG
             // 
+            this.cbbTenDG.Enabled = false;
             this.cbbTenDG.FormattingEnabled = true;
             this.cbbTenDG.Location = new System.Drawing.Point(242, 294);
-            this.cbbTenDG.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.cbbTenDG.Margin = new System.Windows.Forms.Padding(4);
             this.cbbTenDG.Name = "cbbTenDG";
             this.cbbTenDG.Size = new System.Drawing.Size(249, 30);
             this.cbbTenDG.TabIndex = 36;
@@ -100,7 +101,7 @@
             // 
             this.cbbMaDG.FormattingEnabled = true;
             this.cbbMaDG.Location = new System.Drawing.Point(242, 184);
-            this.cbbMaDG.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.cbbMaDG.Margin = new System.Windows.Forms.Padding(4);
             this.cbbMaDG.Name = "cbbMaDG";
             this.cbbMaDG.Size = new System.Drawing.Size(249, 30);
             this.cbbMaDG.TabIndex = 35;
@@ -110,7 +111,7 @@
             // 
             this.dateTra.Format = System.Windows.Forms.DateTimePickerFormat.Short;
             this.dateTra.Location = new System.Drawing.Point(736, 263);
-            this.dateTra.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dateTra.Margin = new System.Windows.Forms.Padding(4);
             this.dateTra.Name = "dateTra";
             this.dateTra.Size = new System.Drawing.Size(249, 28);
             this.dateTra.TabIndex = 34;
@@ -119,7 +120,7 @@
             // 
             this.dateMuon.Format = System.Windows.Forms.DateTimePickerFormat.Short;
             this.dateMuon.Location = new System.Drawing.Point(736, 192);
-            this.dateMuon.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dateMuon.Margin = new System.Windows.Forms.Padding(4);
             this.dateMuon.Name = "dateMuon";
             this.dateMuon.Size = new System.Drawing.Size(249, 28);
             this.dateMuon.TabIndex = 33;
@@ -128,7 +129,7 @@
             // 
             this.txtMaPhieu.Enabled = false;
             this.txtMaPhieu.Location = new System.Drawing.Point(242, 95);
-            this.txtMaPhieu.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtMaPhieu.Margin = new System.Windows.Forms.Padding(4);
             this.txtMaPhieu.Name = "txtMaPhieu";
             this.txtMaPhieu.ReadOnly = true;
             this.txtMaPhieu.Size = new System.Drawing.Size(249, 28);
@@ -187,7 +188,7 @@
             // button1
             // 
             this.button1.Location = new System.Drawing.Point(366, 451);
-            this.button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button1.Margin = new System.Windows.Forms.Padding(4);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(125, 45);
             this.button1.TabIndex = 41;
@@ -198,7 +199,7 @@
             // button2
             // 
             this.button2.Location = new System.Drawing.Point(614, 451);
-            this.button2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button2.Margin = new System.Windows.Forms.Padding(4);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(118, 45);
             this.button2.TabIndex = 42;
@@ -228,7 +229,7 @@
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label1);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "formTaoPhieu2";
             this.Text = "formTaoPhieu2";
             this.Load += new System.EventHandler(this.formTaoPhieu2_Load);

@@ -27,7 +27,7 @@ namespace GUI
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            busPM.UpdateLateStatus();
+            busPM.UpdateLateStatus();//Cập nhật trạng thái trễ hạn
             string temp = busTk.GetLoaiTKById(userId);
             string hoten = busTk.GetNameById(userId);
             if (temp == "AD001  ")

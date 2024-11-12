@@ -75,5 +75,17 @@ namespace DAL
                 return query.ToList();
             }
         }
+        public int nextID()
+        {
+            using (var context = new QUANLYTHUVIENEntities2())
+            {
+                var query = context.NHAXUATBANs.OrderByDescending(x => x.MANXB).FirstOrDefault();
+                if (query == null)
+                {
+                    return 1;
+                }
+                return query.MANXB + 1;
+            }
+        }
     }
 }

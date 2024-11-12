@@ -401,6 +401,9 @@
     <EmbeddedResource Include="formQLYDocGia.resx">
       <DependentUpon>formQLYDocGia.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FormQuanLySach.resx">
+      <DependentUpon>FormQuanLySach.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="formQuyDinh.resx">
       <DependentUpon>formQuyDinh.cs</DependentUpon>
     </EmbeddedResource>

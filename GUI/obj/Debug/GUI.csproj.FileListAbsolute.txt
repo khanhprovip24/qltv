@@ -568,3 +568,4 @@ D:\BTL-qltv\GUI\bin\Debug\RBush.xml
 D:\BTL-qltv\GUI\bin\Debug\SixLabors.Fonts.xml
 D:\BTL-qltv\GUI\bin\Debug\System.IO.Packaging.xml
 D:\BTL-qltv\GUI\obj\Debug\GUI.FormBaoCaoThongKe.resources
+D:\BTL-qltv\GUI\obj\Debug\GUI.FormQuanLySach.resources

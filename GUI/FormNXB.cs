@@ -40,7 +40,8 @@ namespace GUI
 
         private void btnThemNXB_Click(object sender, EventArgs e)
         {
-            txtMaNXB.Text = string.Empty;
+            string id = bll.nextID().ToString();
+            txtMaNXB.Text = id;
             txtTenNXB.Text = string.Empty;
             txtDiaChiNXB.Text = string.Empty;
             txtMaNXB.ReadOnly = true;

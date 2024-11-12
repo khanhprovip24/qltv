@@ -53,6 +53,14 @@ namespace DAL
         {
             return QUANLYTHUVIENEntities2.Instance.DOCGIAs.Select(x => x.MADG).ToList();
         }
+        public int GetDGNextId()
+        {
+            using (var context = new QUANLYTHUVIENEntities2())
+            {
+                int? maxId = context.DOCGIAs.Max(x => (int?)x.MADG);
+                return (maxId ?? 0) + 1;
+            }
+        }
 
     }
 }

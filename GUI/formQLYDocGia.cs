@@ -98,15 +98,18 @@ namespace GUI
 
         private void btnThem_Click(object sender, EventArgs e)
         {
-
+            string id = busDG.GetDGNextId().ToString();
             txtDiaChi.Text = "";
             txtEmail.Text = "";
-            txtMa.Text = "";
+            txtMa.Text = id;
             txtTen.Text = "";
             txtSDT.Text = "";
             comboBoxGT.Text = "";
             txtMa.ReadOnly = true;
             btnLuu.Enabled = true;
+            btnXoa.Enabled = false;
+            btnSua.Enabled = false;
+
         }
 
         private void btnLuu_Click(object sender, EventArgs e)
@@ -130,6 +133,8 @@ namespace GUI
             btnLuu.Enabled = false;
             gridDocGia.DataSource = busDG.GetAllDocGia();   
             gridDocGia.Refresh();
+            btnXoa.Enabled = true;
+            btnSua.Enabled = true;
         }
 
         private void btnTimKiem_Click(object sender, EventArgs e)

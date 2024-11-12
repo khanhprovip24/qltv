@@ -79,5 +79,14 @@ namespace DAL
                 return query.ToList();
             }
         }
+        public int nextMaTacGia()
+        {
+            using (var context = new QUANLYTHUVIENEntities2())
+            {
+                int? maxId = context.TACGIAs.Max(x => (int?)x.MATACGIA);
+                return (maxId ?? 0) + 1;
+            }
+        }
+
     }
 }

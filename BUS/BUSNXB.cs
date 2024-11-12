@@ -36,5 +36,9 @@ namespace BUS
         {
             return NhaXuatBan.TimKiemNXB(searchTerm);
         }
+        public int nextID()
+        {
+            return NhaXuatBan.nextID();
+        }
     }
 }

@@ -41,5 +41,10 @@ namespace BUS
         {
             return TacGia.TimKiemTacGia(searchTerm);
         }
+        public int nextMaTacGia()
+        {
+           return TacGia.nextMaTacGia();
+        }
+
     }
 }

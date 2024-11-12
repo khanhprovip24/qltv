@@ -45,6 +45,11 @@ namespace BUS
         {
             return dalDG.GetAllDGId();
         }
+        public int GetDGNextId()
+        {
+            return dalDG.GetDGNextId();
+        }
+
 
     }
 }
